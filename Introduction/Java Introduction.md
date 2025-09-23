@@ -2,9 +2,9 @@
 
 2.     **Platform independent** it means we can run or execute this any OS, like Windows, Linux, macOS, Android etc. This flow called **WORA → Write Once, Run Anywhere**. That archived through JVM
 
-3.     Java is **Object Oriented programming** language that means reusable the code at anywhere.p
+3.     Java is **Object Oriented programming** language that means reusable the code at anywhere.
 
-**Flow of JDK with java file:**[[Welcome]]
+[[Flow of JDK with java file]]
 
 Java File (.java) -> [javac] -> ByteCode File (.class) -> [JVM/Java Interpreter] -> Running it(by first converting it into binary code specific to the machine)
 
@@ -33,5 +33,3 @@ Not portable → binary for x86 won’t run on ARM.
  **Bytecode** = platform-independent code for the JVM.
 
  **Binary code** = platform-dependent machine code for the CPU.
-
-test.................................................
