@@ -33,3 +33,5 @@ Not portable → binary for x86 won’t run on ARM.
  **Bytecode** = platform-independent code for the JVM.
 
  **Binary code** = platform-dependent machine code for the CPU.
+
+test.................................................
