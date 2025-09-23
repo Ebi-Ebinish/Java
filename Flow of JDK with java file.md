@@ -6,11 +6,8 @@
 It is a **software development environment** used for developing Java applications. The JDK includes everything needed to **write**, **compile**, **debug**, and **run** Java programs.
 
 1.     Abstract syntax tree
-
 2.     Symbol table
-
 3.     Optimization
-
 4.     Runtime constant pool
 
 **ABSTRACT SYNTAX TREE**
@@ -126,9 +123,9 @@ x = x +
 
 The symbol table will store:
 
-|**Identifier**|**Type**|**Scope**|
-|---|---|---|
-|x|int|Local|
+| **Identifier** | **Type** | **Scope** |
+| -------------- | -------- | --------- |
+| x              | int      | Local     |
 
 The compiler uses this table to ensure `x` is declared and used correctly.
 
