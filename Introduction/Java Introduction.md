@@ -1,12 +1,13 @@
-1.     Java is a **high level programming language** means human readable.
+1.     Java is a **high level [[PROGARAMMING LANGUAGE]] means human readable.
 
-2.     **Platform independent** it means we can run or execute this any OS, like Windows, Linux, macOS, Android etc. This flow called **WORA → Write Once, Run Anywhere**. That archived through JVM
+2.    [[PROGARAMMING LANGUAGE#**What is platform independent?**]]    [[#**Platform independent**]] it means we can run the class file and execute this any OS, like Windows, Linux, macOS, Android etc. This flow called **WORA → Write Once, Run Anywhere**.
+That archived through JVM.
+3.     Java is **Object Oriented programming** language that means reusable the code at anywhere using the object blue print of an class.
 
-3.     Java is **Object Oriented programming** language that means reusable the code at anywhere.
+[[INSIDE JDK FUNCTIONALITY’S]]
 
-[[Flow of JDK with java file]]
-
-Java File (.java) -> [javac] -> ByteCode File (.class) -> [JVM/Java Interpreter] -> Running it(by first converting it into binary code specific to the machine)
+Flow o
+	Java File (.java) -> [javac] -> ByteCode File (.class) -> [JVM/Java Interpreter] -> Running it(by first converting it into binary code specific to the machine)
 
 Bytecode and binary code are not the same, although they are related and both are represented using binary digits (0s and 1s).
 

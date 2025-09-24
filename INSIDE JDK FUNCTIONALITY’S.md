@@ -1,4 +1,4 @@
-**INSIDE JDK FUNCTIONALITY’S**
+
 **What is JDK?**
 
 **JDK** stands for **Java Development Kit**.
