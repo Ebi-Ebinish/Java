@@ -40,8 +40,7 @@ public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
-}
-```
+}```
 
 The AST would represent:
 
@@ -74,7 +73,6 @@ For the code:
 ```java
 int x = 10;
 x = x + 5;
-
 ```
 
 The symbol table will store:
@@ -110,7 +108,6 @@ Before Optimization:
 ```java
 int x = 5;
 int y = x + 0;  // Addition with 0 is useless
-
 ```
 
 After Optimization:
@@ -119,5 +116,62 @@ After Optimization:
 int y = 5;  // Simplified
 ```
 
+The JVM may apply such simplifications at runtime for performance.
+
+---
+
+## 5. Runtime Constant Pool
+
+### What is it?
+
+The **Runtime Constant Pool** is a part of the `.class` file that stores:
+
+- **Literals** – numbers, strings, etc.
+- **Symbolic references** – class names, method names, field names.
+
+It is used by the JVM during execution for:
+
+- **Dynamic linking** of methods and classes.
+- Efficient reuse of constants.
+
+### Example:
+
+For the code:
+
+```java
+String msg = "Hello";
+```
+
+The string `"Hello"` is stored once in the constant pool, and reused if you declare the same string again.  
+This improves **memory efficiency**.
+
+---
+
+# JIT COMPILER (JUST IN TIME)
+
+## JIT Compiler Optimizations in JVM
+
+The **Just-In-Time (JIT) compiler** is part of the JVM that compiles bytecode to native machine code at runtime. This enables dynamic optimizations based on actual program behavior.
+
+### Common JIT Optimizations
+
+- **Method Inlining:** Replaces method calls with the method body to reduce call overhead.
+- **Dead Code Elimination:** Removes code that will never execute.
+- **Loop Unrolling:** Expands loops to reduce loop overhead and improve instruction-level parallelism.
+- **Constant Folding:** Computes constant expressions at compile or runtime.
+- **Escape Analysis:** Determines if an object can be allocated on the stack instead of the heap, reducing garbage collection.
+- **Adaptive Optimization:** Profiles running code and optimizes “hot” methods that execute frequently.
+- **Register Allocation:** Efficiently assigns variables to CPU registers.
+- **Branch Prediction Optimization:** Reorders code based on likely execution paths.
+- **Inlining Cache:** Speeds up method dispatch by caching resolved methods.
+- **Lock Coarsening and Elimination:** Optimizes synchronization to reduce overhead in multi-threaded code.
+- **Speculative Optimization:** Makes optimistic assumptions about code behavior and can roll back if assumptions fail.
+- **Code Vectorization:** Transforms loops and math operations to use SIMD instructions for parallel processing.
+
+### Why JIT?
+
+- The JVM can optimize based on **real-time execution data**.
+- Allows Java programs to run nearly as fast as native applications.
+- Provides platform-specific optimizations for different CPUs.
 
 

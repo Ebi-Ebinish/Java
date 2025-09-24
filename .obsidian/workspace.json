@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INSIDE JDK FUNCTIONALITY’S.md",
+                "file": "PROGRAMMING LANGUAGE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INSIDE JDK FUNCTIONALITY’S"
+              "title": "PROGRAMMING LANGUAGE"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INSIDE JDK FUNCTIONALITY’S.md",
+                "file": "PROGRAMMING LANGUAGE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INSIDE JDK FUNCTIONALITY’S"
+              "title": "Outline of PROGRAMMING LANGUAGE"
             }
           }
         ],
@@ -200,9 +200,9 @@
   },
   "active": "d9ba3cefa8a1c85b",
   "lastOpenFiles": [
-    "PROGRAMMING LANGUAGE.md",
     "Introduction/JAVA INTRODUCTION.md",
     "INSIDE JDK FUNCTIONALITY’S.md",
+    "PROGRAMMING LANGUAGE.md",
     "PROGARAMMING LANGUAGE.md",
     "PROGARMMING LANGUAGE.md",
     "README.md",
