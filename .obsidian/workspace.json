@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "5f49501b8a5b3cff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ABSTRACTION.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ABSTRACTION"
+            }
+          },
+          {
             "id": "8defd9cafed7eb3f",
             "type": "leaf",
             "state": {
@@ -49,7 +63,8 @@
               "title": "PROGRAMMING LANGUAGE"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PROGRAMMING LANGUAGE.md",
+                "file": "ABSTRACTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PROGRAMMING LANGUAGE"
+              "title": "Outline of ABSTRACTION"
             }
           }
         ],
@@ -198,11 +213,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "d9ba3cefa8a1c85b",
+  "active": "5f49501b8a5b3cff",
   "lastOpenFiles": [
+    "PROGRAMMING LANGUAGE.md",
+    "ABSTRACTION.md",
     "ENCAPSULATION.md",
     "Introduction/JAVA INTRODUCTION.md",
-    "PROGRAMMING LANGUAGE.md",
     "INSIDE JDK FUNCTIONALITY’S.md",
     "PROGARAMMING LANGUAGE.md",
     "PROGARMMING LANGUAGE.md",
