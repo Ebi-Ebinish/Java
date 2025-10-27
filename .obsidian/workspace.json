@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "5e4eb34ce48ea138",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
             "id": "8defd9cafed7eb3f",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,13 +197,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ABSTRACTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ABSTRACTION"
+              "title": "Outline"
             }
           }
         ],
@@ -213,7 +224,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "5f49501b8a5b3cff",
+  "active": "5e4eb34ce48ea138",
   "lastOpenFiles": [
     "PROGRAMMING LANGUAGE.md",
     "ABSTRACTION.md",
