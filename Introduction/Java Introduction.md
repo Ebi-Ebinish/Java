@@ -3,7 +3,7 @@
 2. [Platform Independent](PROGRAMMING%20LANGUAGE#What%20is%20Platform%20Independence?) — it means we can run the `.class` file and execute it on any OS, like Windows, Linux, macOS, Android, etc.  
    This flow is called **WORA → Write Once, Run Anywhere**, which is achieved through the JVM.
 
-3. Java is an **Object Oriented Programming** language — that means code can be reused anywhere using the **object**, which is a blueprint of a **class**.
+3. Java is an [[PROGRAMMING LANGUAGE#OOPs (Object-Oriented Programming)|OOPs (Object-Oriented Programming)]] — that means code can be reused anywhere using the **object**, which is a blueprint of a **class**.
 
 
 [[INSIDE JDK FUNCTIONALITY’S]]
