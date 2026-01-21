@@ -61,9 +61,21 @@
               "icon": "lucide-file",
               "title": "PROGRAMMING LANGUAGE"
             }
+          },
+          {
+            "id": "1f717b4f32786a9f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -184,13 +196,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           }
         ],
@@ -212,7 +223,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "e69cc13ad5f3bfe4",
+  "active": "1f717b4f32786a9f",
   "lastOpenFiles": [
     "test/1 test.md",
     "test/0 test1.md",
