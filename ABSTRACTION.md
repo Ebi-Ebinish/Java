@@ -4,7 +4,7 @@ An **abstract method**:
         
     - ends with a semicolon `;`.
         
-    - must be implemented by subclasses.
+    - must be implemented by subclasses .
         
 - If a class has **at least one abstract method**, the class itself must be declared as **abstract**.
     
