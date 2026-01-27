@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "ABSTRACTION"
             }
-          },
-          {
-            "id": "65c1865eddbff06b",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Introduction/Java Introduction.md",
-                "bFile": "Introduction/Java Introduction.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Java Introduction"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +195,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "65c1865eddbff06b",
+  "active": "1b373345cb93243a",
   "lastOpenFiles": [
     "PROGRAMMING LANGUAGE.md",
     "Introduction/JAVA INTRODUCTION.md",
