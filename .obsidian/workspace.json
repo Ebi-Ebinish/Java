@@ -54,12 +54,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROTOCOLS WEB SOCKETS.md",
+                "file": "ABSTRACTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROTOCOLS WEB SOCKETS"
+              "title": "ABSTRACTION"
             }
           }
         ],
@@ -224,12 +224,13 @@
   },
   "active": "065e4dda9c4ccbdd",
   "lastOpenFiles": [
-    "PROTOCOL.base",
-    "PROTOCOLS WEB SOCKETS.md",
-    "Introduction/JAVA INTRODUCTION.md",
     "PROGRAMMING LANGUAGE.md",
-    "INSIDE JDK FUNCTIONALITY’S.md",
+    "Introduction/JAVA INTRODUCTION.md",
     "ABSTRACTION.md",
+    "ENCAPSULATION.md",
+    "INSIDE JDK FUNCTIONALITY’S.md",
+    "PROTOCOLS WEB SOCKETS.md",
+    "PROTOCOL.base",
     "Object Oriented Programming.md",
     "OOPs (Object-Oriented Programming).md",
     "OOPs (Object-Oriented Programming) language.md",
@@ -237,7 +238,6 @@
     "test/0 test1.md",
     "Untitled",
     "test",
-    "ENCAPSULATION.md",
     "PROGARAMMING LANGUAGE.md",
     "PROGARMMING LANGUAGE.md",
     "README.md",
