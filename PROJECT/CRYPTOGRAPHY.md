@@ -5,6 +5,8 @@
 
 # So What Is Cryptography?
 
+The word "cryptography" comes from Greek roots meaning "hidden writing."
+
 Cryptography is:
 
 > The science of protecting information by converting it into a secret form so only authorized people can read it.
@@ -14,11 +16,18 @@ It turns **readable data → unreadable data**.
 
 # Why Cryptography is needed 
 
-In the real usage is your logging a bank website some details changing.
+In the real usage assume that your logging a bank website for changing some details.
 that request works with internet ---> routers ---> server.
-If without cryptography means the hacker read your data and change your data.
+example:
+```
+{
+	"Username":"test",
+	"Password":"test@123"
+}
+```
+If without cryptography means that details will go same readable format that means the hacker read your data and change your data while the request processing to server.
 
-#### When you:
+#### When you Cryptography:
 
 - Log in to a website
 - Use internet banking
@@ -86,6 +95,18 @@ Used in:
 - Encryption → Plaintext → Ciphertext
 - Decryption → Ciphertext → Plaintext
 ---
+
+# Main Types of Cryptography
+
+There are **4 major categories**:
+
+1️⃣ Symmetric Key Cryptography  
+2️⃣ Asymmetric Key Cryptography  
+3️⃣ Hash Functions  
+4️⃣ Digital Signatures
+
+
+
 #  What Makes Encryption Work?
 
 Encryption needs something called a **Key**.
@@ -104,6 +125,7 @@ Encryption needs something called a **Key**.
 - Strength of algorithm
 - Length of key
 - How safely key is stored
+
 
 
 
