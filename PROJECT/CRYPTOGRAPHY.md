@@ -111,6 +111,15 @@ There are **4 major categories**:
 
 Symmetric cryptography means the key used both encryption and decryption.
 
+### Example
+
+If your sending an ATM pin 4589.
+ATM does NOT send `4589` to bank.
+ATM encrypts it using a **symmetric key** stored inside secure hardware (HSM).
+Bank uses the **same secret key** to decrypt and verify.
+
+Same key used on both sides → That is symmetric cryptography.
+
 # What does an HSM store?
 
 - **Cryptographic Keys:** HSMs store master keys, root CA keys, symmetric keys (AES), and private keys for asymmetric cryptography (RSA/ECC).
