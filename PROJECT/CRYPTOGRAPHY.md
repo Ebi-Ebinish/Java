@@ -107,7 +107,9 @@ There are **4 major categories**:
 3️⃣ Hash Functions  
 4️⃣ Digital Signatures
 
+# Symmetric Cryptography 
 
+Symmetric cryptography means the key used both encryption and decryption.
 
 #  What Makes Encryption Work?
 
