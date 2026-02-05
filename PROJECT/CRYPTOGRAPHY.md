@@ -120,6 +120,60 @@ Bank uses the **same secret key** to decrypt and verify.
 
 Same key used on both sides → That is symmetric cryptography.
 
+# Asymmetric Key Cryptography
+
+Also called **Public Key Cryptography**
+
+### 🔑 Concept:
+
+Two different keys:
+
+- Public Key (shared with everyone)
+- Private Key (kept secret)
+
+What one key encrypts, the other decrypts.
+
+---
+
+### 📦 Example:
+
+Bank has:
+
+- Public key (anyone can see)
+- Private key (only bank knows)
+
+You:
+
+- Encrypt message using bank’s public key
+- Only bank can decrypt using private key
+
+Even if hacker sees public key → cannot decrypt.
+
+---
+
+### ✅ Characteristics:
+
+- More secure key exchange
+- Slower than symmetric
+- Used for authentication & key exchange
+
+---
+
+### 🔐 Examples:
+
+- RSA
+- ECC (Elliptic Curve Cryptography)
+- Diffie-Hellman
+
+---
+
+### 🌐 Used In:
+
+- SSL/TLS
+- Digital certificates
+- Secure login
+- Key exchange
+
 # What does an HSM store?
 
 - **Cryptographic Keys:** HSMs store master keys, root CA keys, symmetric keys (AES), and private keys for asymmetric cryptography (RSA/ECC).
