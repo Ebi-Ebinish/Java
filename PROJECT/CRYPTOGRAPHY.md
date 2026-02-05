@@ -158,7 +158,6 @@ Even if hacker sees public key → cannot decrypt.
 - Used for authentication & key exchange
 
 ---
-
 ### 🔐 Examples:
 
 - RSA
@@ -166,7 +165,6 @@ Even if hacker sees public key → cannot decrypt.
 - Diffie-Hellman
 
 ---
-
 ### 🌐 Used In:
 
 - SSL/TLS
