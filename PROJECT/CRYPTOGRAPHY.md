@@ -102,7 +102,7 @@ Used in:
 
 There are **4 major categories**:
 
-1️⃣ Symmetric Key Cryptography  
+1️⃣ [[Symmetric Key Cryptography]]
 2️⃣ Asymmetric Key Cryptography  
 3️⃣ Hash Functions  
 4️⃣ Digital Signatures
