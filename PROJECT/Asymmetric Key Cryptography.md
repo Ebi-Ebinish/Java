@@ -11,6 +11,8 @@ Two different keys:
 
 What one key encrypts, the other decrypts.
 
+Data encrypted with one key can only be decrypted with the other key.
+
 ---
 ### 📦 Example:
 
