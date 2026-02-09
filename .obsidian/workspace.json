@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OPPS/ENCAPSULATION.md",
+                "file": "OPPS/ABSTRACTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ENCAPSULATION"
+              "title": "ABSTRACTION"
             }
           }
         ],
@@ -253,6 +253,7 @@
   },
   "active": "d8d7bf464cffd4f0",
   "lastOpenFiles": [
+    "OPPS/ENCAPSULATION.md",
     "OPPS/ABSTRACTION.md",
     "PROJECT/Asymmetric Key Cryptography.md",
     "OPPS",
@@ -271,7 +272,6 @@
     "README.md",
     "PROJECT/Test.md",
     "PROJECT",
-    "OPPS/ENCAPSULATION.md",
     "Introduction/INSIDE JDK FUNCTIONALITY’S.md",
     "Object Oriented Programming.md",
     "OOPs (Object-Oriented Programming).md",

@@ -12,7 +12,6 @@ TV remote
 It focuses on what an object does rather than how it does it.
 
 ---
-
 ## What is Concrete Method in Java?
 In Java, a concrete method is a method that has a complete implementation or definition. This means it contains a method body with executable code, unlike an abstract method which only has a declaration and no implementation.
 
@@ -23,13 +22,11 @@ In Java, a concrete method is a method that has a complete implementation or def
 - **Execution**: To execute a concrete method, an object of the class containing the method must be instantiated, and the method can then be called on that object.
 
 ---
-
 ## We can archive abstraction in two ways:
 1. Abstraction class  
 2. Interface  
 
 ---
-
 ## Abstraction Class
 The class will declared with `abstract` keyword.  
 
@@ -51,7 +48,6 @@ abstract class Animal {
 Because `Animal` is abstract — it's incomplete. It may have abstract methods (without a body), so Java doesn’t allow creating an instance of it.
 
 ---
-
 ## If I have concrete method inside abstract class that time can I access directly using object new keyword?
 
 No, you cannot create an object of an abstract class (even if it contains concrete methods), so you cannot access any methods directly using `new` keyword.
@@ -66,7 +62,6 @@ Abstract classes are designed to be extended, not used directly. They're like te
 It’s compulsory to override an abstract method in a subclass.
 
 ---
-
 ## Interface
 
 An interface is a blueprint of a class.
@@ -78,30 +73,22 @@ Interfaces provide abstraction (only method signatures, no implementation).
 Classes that implement the interface provide their own version of the behavior.
 
 ---
-
 ## Characteristics of Interface
 
 By default, all methods inside an interface are:
 
 - `public`
-    
 - `abstract` (before Java 8)
-    
-
-From Java 8 onwards:
-
+#### From Java 8 onwards:
 - Can also contain `default` and `static` methods.
-    
 
-From Java 9 onwards:
+### From Java 9 onwards:
 
 - Can contain `private` methods as helper methods.
-    
 
 Variables in an interface are:
 
 - `public static final` (constants) by default.
-    
 
 Interfaces cannot be instantiated (like abstract classes).
 
@@ -162,26 +149,19 @@ public class Main {
 Because:
 
 - `private` → can’t be overridden
-    
 - `final` → can’t be overridden
-    
 - `static` → belongs to class, not object
 
 And abstract methods must be overridden, so these modifiers make no sense.
 
 ---
-
 ## Interface (Additional Points)
 
 - Variables are always `public static final` (Constants).
-    
 - Interface can extend multiple interfaces.
-    
 - Static methods can be called only using the interface name, not through implementing classes.
-    
 
 ---
-
 ## Interface and Abstraction differences
 
 |Interface|Abstraction|
@@ -191,5 +171,4 @@ And abstract methods must be overridden, so these modifiers make no sense.
 ### Points:
 
 1. According to interface, enforce to implements abstract method to be defined in interface which is does not have relationship (Relationship means – Each interface and its class have their own set of rules).
-    
 2. Abstraction could be links between two classes which can share their things like Inheritance and it make sensible relationship.
