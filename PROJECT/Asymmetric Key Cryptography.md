@@ -48,3 +48,15 @@ Even if hacker sees public key → cannot decrypt.
 - Digital certificates
 - Secure login
 - Key exchange
+
+# Usages 
+## 1️⃣ Internet (HTTPS – Every Secure Website)'
+
+When you visit:
+
+```d
+https://bank.com
+https://google.com
+https://amazon.in
+```
+
