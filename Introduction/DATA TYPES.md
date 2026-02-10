@@ -55,7 +55,6 @@ Primitive datatype storage differs variable-wise.
 2. Non-Primitive
 
 ---
-
 ## Primitive Datatypes
 
 - Used to store actual values
@@ -72,7 +71,6 @@ Primitive datatype storage differs variable-wise.
     - `byte`
 
 ---
-
 ## Non-Primitive Datatypes
 
 - Used to store object values
@@ -84,9 +82,7 @@ Primitive datatype storage differs variable-wise.
     - `Class`
     - `Object
     - `ArrayList`
-
 ---
-
 ## String Immutability (Important Note)
 
 String is immutable because every time you modify it, a **new object is created**.
@@ -134,11 +130,8 @@ Every datatype has a literal value when initialized.
 ## String Constant Pool (SCP)
 
 - All string literals like `"Hello"` and `"Java"` are stored in the **String Constant Pool**
-    
 - SCP is part of heap memory
-    
 - Purpose:
-    
     - Save memory
     - Improve performance by reusing string objects
 
@@ -172,7 +165,6 @@ Every datatype has a literal value when initialized.
     - Since strings can’t be changed, sharing them is safe
 
 ---
-
 ## Byte Datatype
 
 - Range: `-128` to `127`
@@ -185,19 +177,12 @@ Every datatype has a literal value when initialized.
 - Result: `-128`
 
 ---
-
 ## HashCode() Method
 
 - `hashCode()` always returns an `int`
-    
 - Size of `int`: **32-bit**
-    
 - Hash code is **not random**
-    
 - It must be consistent and usable as a unique identifier
-    
 - Format: **Base-10 (Decimal)**
-    
     - Example values: `700`, `12`, `1`
-        
 - Always within the range of a 32-bit integer
