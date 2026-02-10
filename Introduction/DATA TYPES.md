@@ -141,7 +141,6 @@ Every datatype has a literal value when initialized.
 - Purpose:
     - Save memory
     - Improve performance by reusing string objects
-
 ### Example
 
 ```java
@@ -152,7 +151,6 @@ String s1 = "Java"; String s2 = "Java";
 - Same memory location is shared
 ---
 ## Using `new String()`
-
 
 ```java
 String s3 = new String("Java");
