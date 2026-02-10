@@ -60,3 +60,19 @@ https://google.com
 https://amazon.in
 ```
 
+### Asymmetric cryptography is used to:
+
+- Verify the server’s identity (certificate)
+- Securely exchange a symmetric session key
+### Process:
+
+1. Server sends its **public key (inside certificate)**.
+2. Browser verifies it using CA public key.
+3. Browser encrypts a session key using server’s public key.
+4. Server decrypts using its private key.
+5. Now AES is used for data transfer.
+
+Without asymmetric crypto → HTTPS cannot exist.
+
+# 2️⃣ Digital Certificates (PKI Infrastructure)
+
