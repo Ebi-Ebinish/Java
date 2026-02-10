@@ -162,9 +162,9 @@ String s3 = new String("Java");
 ### Comparison Example
 
 ```java
-`String s1 = "Java"; 
+String s1 = "Java"; 
 String s3 = new String("Java");
-System.out.println(s1 == s3);      // false (different memory addresses) System.out.println(s1.equals(s3)); // true (same content)`
+System.out.println(s1 == s3);      // false (different memory addresses) System.out.println(s1.equals(s3)); // true (same content)
 ```
 
 ---
@@ -181,7 +181,6 @@ System.out.println(s1 == s3);      // false (different memory addresses) System.
 ## Byte Datatype
 
 - Range: `-128` to `127`
-
 ### Casting Example
 
 ```java
