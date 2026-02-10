@@ -89,14 +89,18 @@ String is immutable because every time you modify it, a **new object is created*
 
 ### Example 1: Using `new`
 
-`String obj = new String("Hello");`
+```java
+String obj = new String("Hello");
+```
 
 - Stored in heap memory
 - A new object is created with a new memory address
 - `"Hello"` is the object and `obj` is the reference
 ### Example 2: Using String Literal
 
-`String obj = "Hello";`
+```java
+String obj = "Hello";
+```
 
 - Stored in the **String Constant Pool**
 - No new object is created if the same value already exists
@@ -105,7 +109,9 @@ String is immutable because every time you modify it, a **new object is created*
 ---
 ### Reference Assignment
 
-`String obj = new String("Hello"); String obj1 = obj;`
+```java
+String obj = new String("Hello"); String obj1 = obj;
+```
 
 - Using `==` operator:
     - Compares memory addresses
@@ -122,8 +128,9 @@ String is immutable because every time you modify it, a **new object is created*
 A literal is a **fixed value written directly in the code** that represents data.
 ### Examples
 
-`int a = 10;           // Integer literal String name = "Ebinish"; // String literal`
-
+```java
+int a = 10;           // Integer literal String name = "Ebinish"; // String literal
+```
 Every datatype has a literal value when initialized.
 
 ---
@@ -137,24 +144,32 @@ Every datatype has a literal value when initialized.
 
 ### Example
 
-`String s1 = "Java"; String s2 = "Java";`
+```java
+String s1 = "Java"; String s2 = "Java";
+```
 
 - Both refer to the same object in the String Pool
 - Same memory location is shared
 ---
 ## Using `new String()`
 
-`String s3 = new String("Java");`
+
+```java
+String s3 = new String("Java");
+```
 
 - Creates a new object in heap memory (outside SCP)
 - Even if `"Java"` exists in the pool, `new` forces a new object
 
 ### Comparison Example
 
-`String s1 = "Java"; String s3 = new String("Java");  System.out.println(s1 == s3);      // false (different memory addresses) System.out.println(s1.equals(s3)); // true (same content)`
+```java
+`String s1 = "Java"; 
+String s3 = new String("Java");
+System.out.println(s1 == s3);      // false (different memory addresses) System.out.println(s1.equals(s3)); // true (same content)`
+```
 
 ---
-
 ## Why Java Uses String Constant Pool?
 
 1. **Memory Efficiency**
@@ -171,7 +186,9 @@ Every datatype has a literal value when initialized.
 
 ### Casting Example
 
-`byte num = (byte) 128;`
+```java
+	byte num = (byte) 128;
+```
 
 - Value wraps around using modulo `256`
 - Result: `-128`
