@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VARIABLES.md",
+                "file": "Introduction/VARIABLES.md",
                 "mode": "source",
                 "source": false
               },
@@ -293,10 +293,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b413771f2e61ffb",
+  "active": "1b373345cb93243a",
   "lastOpenFiles": [
     "Introduction/DATA TYPES.md",
-    "VARIABLES.md",
+    "Introduction/VARIABLES.md",
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/SYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/CRYPTOGRAPHY.md",
