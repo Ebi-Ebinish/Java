@@ -39,6 +39,17 @@ If someone gets the key → security broken.
 - Database encryption
 
 ---
+#### Advantages
+
+- Fast and efficient (low computational overhead, suitable for large data).
+- Simple to implement in hardware.
+
+#### Disadvantages
+
+- Key distribution problem: How to securely share the key? (Solved by asymmetric methods in practice.)
+- Not suitable for scenarios with many parties (each pair needs a unique key).
+- Vulnerable to key compromise if the key is intercepted.
+
 ### ⚠ Problem:
 
 How do you securely share the key?

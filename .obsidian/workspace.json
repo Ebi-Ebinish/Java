@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/VARIABLES.md",
+                "file": "PROJECT/SYMMETRIC KEY CRYPTOGRAPHY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VARIABLES"
+              "title": "SYMMETRIC KEY CRYPTOGRAPHY"
             }
           }
         ],
@@ -293,10 +293,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b373345cb93243a",
+  "active": "7b413771f2e61ffb",
   "lastOpenFiles": [
-    "Introduction/DATA TYPES.md",
     "Introduction/VARIABLES.md",
+    "Introduction/DATA TYPES.md",
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/SYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/CRYPTOGRAPHY.md",
