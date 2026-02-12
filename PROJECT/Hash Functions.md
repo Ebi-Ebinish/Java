@@ -31,3 +31,18 @@ No matter input size:
 - 5 letters
 - 1000 pages
 - 10GB file
+SHA-256 always gives 256-bit output.
+
+Mainly hash functions are used in the password storage.
+# Types
+
+# 📊 Summary Table
+
+|Type|Example|Usage|Secure Today?|
+|---|---|---|---|
+|MD Family|MD5|Old systems|❌ No|
+|SHA-1|SHA-1|Old SSL|❌ No|
+|SHA-2|SHA-256|HTTPS, blockchain|✅ Yes|
+|SHA-3|SHA3-256|Modern apps|✅ Yes|
+|Password Hash|Bcrypt, Argon2|Login systems|✅ Yes|
+|HMAC|HMAC-SHA256|API auth|✅ Yes|
