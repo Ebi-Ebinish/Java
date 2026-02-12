@@ -14,6 +14,14 @@ What one key encrypts, the other decrypts.
 Data encrypted with one key can only be decrypted with the other key.
 
 ---
+# Flow
+
+You → get public key from ChatGPT
+You → encrypt secret using public key
+ChatGPT → decrypt using private key
+Both → now share same secret
+Then → use AES for everything
+
 ### 📦 Example:
 
 Bank has:
