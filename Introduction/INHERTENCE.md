@@ -1,5 +1,3 @@
-# INHERITANCE
-
 ## What is Inheritance?
 
 Deriving a class from the existing one.  
@@ -13,26 +11,22 @@ It allows you to create a new class from an existing class, reusing code and ext
 4. Hybrid Inheritance  
 
 ---
-
 ## Single Inheritance
 
 It has one parent or base class, one child class has inherit from that one base class.  
 It creates a simple parent-child relationship.
 
 ---
-
 ## Multilevel Inheritance 
 
 When a parent class has one child class that child class becomes a parent for another child class it’s called Multilevel Inheritance.
 
 ---
-
 ## Hierarchical Inheritance
 
 Hierarchical inheritance is when multiple classes inherit from a single parent class.  
 
 ---
-
 ## Multiple inheritance
 
 **Note:** Multiple inheritance is not support in java because of ambiguity Issues.  
