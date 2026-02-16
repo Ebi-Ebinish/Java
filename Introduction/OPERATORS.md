@@ -120,3 +120,67 @@ System.out.println(a | b); // 0111 = 7
 
 ```
 
+### a. ^ (Bitwise XOR)
+
+Exclusive OR. Result is 1 if bits are different, else 0.
+
+Ex:
+
+```java
+int a = 5;   // 0101 int b = 3;   // 0011 System.out.println(a ^ b); // 0110 = 6
+```
+
+---
+## 3. ~ (Bitwise Complement / NOT)
+
+Flips every bit. In Java, numbers are stored in 2’s complement, so result looks tricky.
+
+Ex:
+
+```java
+int a = 5;   // 0101 System.out.println(~a); // -(a+1) = -6
+```
+
+Flow:
+
+Binary of 5 → 0000...0101  
+Flip → 1111...1010 (which is -6 in decimal).
+
+---
+
+## 4. << (Left Shift)
+
+Shifts bits to the left, filling with 0. Equivalent to multiplying by 2^n.
+
+Ex:
+
+```java
+int a = 5;   // 0101 System.out.println(a << 1); // 1010 = 10 System.out.println(a << 2); // 10100 = 20
+```
+
+---
+
+## 5. >> (Signed Right Shift)
+
+Shifts bits to the right. Leftmost bit (sign bit) is preserved → keeps the sign of the number. Equivalent to dividing by 2^n (rounding toward negative infinity).
+
+Ex:
+
+```java
+int a = 20;   // 10100 System.out.println(a >> 2); // 0101 = 5  int b = -20; System.out.println(b >> 2); // still negative
+```
+
+---
+## 6. >>> (Unsigned Right Shift)
+
+Shifts bits to the right, but fills leftmost bits with 0 (ignores sign). Always produces a non-negative number.
+
+Ex:
+
+```java
+int a = 20;   // 10100 System.out.println(a >>> 2); // 0101 = 5  int b = -20; System.out.println(b >>> 2); // large positive number
+```
+
+Why?
+
+Because negative numbers in Java use 2’s complement. Unsigned shift makes it positive by padding 0s on the left.
