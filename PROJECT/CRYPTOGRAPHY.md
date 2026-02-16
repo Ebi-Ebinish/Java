@@ -94,7 +94,6 @@ Used in:
 
 - Digital signatures
 - Online contracts
-
 #### Process:
 - Encryption → Plaintext → Ciphertext
 - Decryption → Ciphertext → Plaintext
@@ -113,8 +112,6 @@ There are **4 major categories**:
 
 - **Cryptographic Keys:** HSMs store master keys, root CA keys, symmetric keys (AES), and private keys for asymmetric cryptography (RSA/ECC).
 - **Encrypted Keys:** When keys are stored on the HSM, they are protected by a "Local Master Key" (LMK) within the hardened boundary, meaning they are never exposed in plaintext.
-
-
 #  What Makes Encryption Work?
 
 Encryption needs something called a **Key**.
