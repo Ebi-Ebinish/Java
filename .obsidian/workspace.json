@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/ACCESS MODIFIER.md",
+                "file": "Introduction/INHERTENCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACCESS MODIFIER"
+              "title": "INHERTENCE"
             }
           }
         ],
@@ -295,8 +295,9 @@
   },
   "active": "7b413771f2e61ffb",
   "lastOpenFiles": [
-    "Introduction/VARIABLES.md",
     "Introduction/ACCESS MODIFIER.md",
+    "Introduction/INHERTENCE.md",
+    "Introduction/VARIABLES.md",
     "PROJECT/HASH FUNCTIONS.md",
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/CRYPTOGRAPHY.md",
@@ -323,7 +324,6 @@
     "OOPs (Object-Oriented Programming).md",
     "OOPs (Object-Oriented Programming) language.md",
     "test/1 test.md",
-    "test/0 test1.md",
     "test",
     "Introduction"
   ]

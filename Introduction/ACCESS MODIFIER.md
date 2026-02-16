@@ -1,4 +1,3 @@
-
 ## What is Access modifier?
 
 Access modifiers are keywords that define the visibility (scope of accessibility) of classes, methods, variables, and constructors.
@@ -14,16 +13,13 @@ Access modifiers are keywords that define the visibility (scope of accessibility
 ## Public Access Modifier
 
 Access anywhere outside of the class and outside of the packages.
-
 ## Private Access Modifier
 
 More restrictive accessible only within the class.
-
 ## Protected Access Modifier
 
 Accessible within the dame package.  
 Visible in the subclass (The subclass from other packages also accessible).
-
 ## Default
 
 If you don’t specify any access modifier It’s a package private  
