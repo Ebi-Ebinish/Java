@@ -1,7 +1,6 @@
 # Asymmetric Cryptography
 
 Also called **Public Key Cryptography**
-
 ### 🔑 Concept:
 
 Two different keys:
