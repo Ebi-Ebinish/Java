@@ -27,7 +27,6 @@
 ## Break Statement
 
 The break statement is used to terminate the innermost enclosing loop (for, while, do-while) or a switch statement immediately, and control jumps to the statement after the loop/ switch.
-
 ### Labelled break
 
 In nested loops, a normal break only exits the inner loop.  
@@ -100,7 +99,6 @@ When reading the source code, the compiler should always consume the longest seq
 - **Operators:** +, -, ++, --, *.
 - **Literals:** 10(Integer), “Hello”(String), ‘A’(char).
 - **Separators:** ; , , , (, ).
-
 ### Ex:
 
 `i+++i`
