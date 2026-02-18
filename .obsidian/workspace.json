@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/DISICION MAKING STATEMENTS.md",
+                "file": "COLLECTIONS/ARRAYLIST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DISICION MAKING STATEMENTS"
+              "title": "ARRAYLIST"
             }
           }
         ],
@@ -309,8 +309,11 @@
   },
   "active": "6bdeb657f49adc90",
   "lastOpenFiles": [
-    "Introduction/DATA TYPES.md",
+    "PROJECT/PROTOCOLS WEB SOCKETS.md",
+    "COLLECTIONS/ARRAYLIST.md",
+    "COLLECTIONS",
     "Introduction/DISICION MAKING STATEMENTS.md",
+    "Introduction/DATA TYPES.md",
     "SPRING FRAMEWORK/Untitled.md",
     "Untitled.md",
     "PROJECT/DIGITAL SIGNATURE.md",
@@ -335,8 +338,6 @@
     "OPPS",
     "PROJECT/Hasing.md",
     "PROJECT/Symmetric Cryptography.md",
-    "Introduction/PROGRAMMING LANGUAGE.md",
-    "PROJECT/PROTOCOLS WEB SOCKETS.md",
     "PROTOCOL.base",
     "PROJECT",
     "test",
