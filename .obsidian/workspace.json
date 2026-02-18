@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COLLECTIONS/STACK.md",
+                "file": "COLLECTIONS/VECTOR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STACK"
+              "title": "VECTOR"
             }
           }
         ],
@@ -309,8 +309,9 @@
   },
   "active": "6bdeb657f49adc90",
   "lastOpenFiles": [
-    "COLLECTIONS/LINKEDLIST.md",
     "COLLECTIONS/STACK.md",
+    "COLLECTIONS/VECTOR.md",
+    "COLLECTIONS/LINKEDLIST.md",
     "COLLECTIONS/ARRAYLIST.md",
     "PROJECT/PROTOCOLS WEB SOCKETS.md",
     "COLLECTIONS",
@@ -336,7 +337,6 @@
     "PROJECT/AES - ADVANCED ENCRYPTION SYSTEM.md",
     "Introduction/JAVA INTRODUCTION.md",
     "OPPS/ENCAPSULATION.md",
-    "OPPS/ABSTRACTION.md",
     "OPPS",
     "PROTOCOL.base",
     "PROJECT",
