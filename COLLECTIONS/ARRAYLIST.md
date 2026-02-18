@@ -1,5 +1,3 @@
-# COLLECTIONS-ARRAYLIST
-
 ## Array List
 
 - Implemented from List interface.  
