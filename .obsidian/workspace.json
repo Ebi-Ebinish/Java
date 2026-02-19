@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPRING FRAMEWORK/INTRODUCTION.md",
+                "file": "COLLECTIONS - SET/TREESET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INTRODUCTION"
+              "title": "TREESET"
             }
           }
         ],
@@ -309,15 +309,17 @@
   },
   "active": "6bdeb657f49adc90",
   "lastOpenFiles": [
-    "COLLECTIONS/VECTOR.md",
-    "COLLECTIONS/STACK.md",
-    "COLLECTIONS/LINKEDLIST.md",
-    "COLLECTIONS/ARRAYLIST.md",
+    "SPRING FRAMEWORK/INTRODUCTION.md",
+    "COLLECTIONS - SET/TREESET.md",
+    "COLLECTIONS - SET",
+    "COLLECTIONS - LIST/VECTOR.md",
+    "COLLECTIONS - LIST/STACK.md",
+    "COLLECTIONS - LIST/LINKEDLIST.md",
+    "COLLECTIONS - LIST/ARRAYLIST.md",
     "PROJECT/PROTOCOLS WEB SOCKETS.md",
-    "COLLECTIONS",
+    "COLLECTIONS - LIST",
     "Introduction/DISICION MAKING STATEMENTS.md",
     "Introduction/DATA TYPES.md",
-    "SPRING FRAMEWORK/INTRODUCTION.md",
     "Untitled.md",
     "PROJECT/DIGITAL SIGNATURE.md",
     "SPRING FRAMEWORK",
@@ -336,7 +338,6 @@
     "Introduction/INSIDE JDK FUNCTIONALITY’S.md",
     "PROJECT/AES - ADVANCED ENCRYPTION SYSTEM.md",
     "Introduction/JAVA INTRODUCTION.md",
-    "OPPS/ENCAPSULATION.md",
     "OPPS",
     "PROTOCOL.base",
     "PROJECT",
