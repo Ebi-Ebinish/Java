@@ -13,5 +13,35 @@ Spring framework is lightweight java framework use to build enterprise level app
 
 # 1. Dependency Injection
 
+### Lets assume with real life example:
 
+You are building a House.
 
+House needs Electricity.
+### Wrong Way
+
+House builds its own power plant.
+
+That makes no sense.
+### Correct Way
+
+Electricity is supplied from outside.
+
+House depends on Electricity.  
+But House does NOT create electricity.
+
+That is Dependency Injection concept.
+
+# Now Translate to Programming
+
+A class often needs another class to work.
+
+Example:
+
+- Car needs Engine
+- Service needs Repository
+- Controller needs Service
+
+The needed class is called:
+
+ Dependency
