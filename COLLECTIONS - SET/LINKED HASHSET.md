@@ -1,5 +1,3 @@
-# COLLECTION - LINKED HASHSET
-
 ## What is Linked Hashset?
 
 Stores unique elements (no duplicates — like HashSet)  
