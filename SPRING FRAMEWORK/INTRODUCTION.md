@@ -21,7 +21,7 @@ In normally we have object creation control here we are giving that control to s
 
 Inversion of control it just a principle, Instead of you creating an Object your giving the control to Spring or some one else.
 
-We need some technic to do IOC that's where the Dependency Injection comes there.
+We need some technic to do IOC, that's where the Dependency Injection comes here.
 
 The Dependency injection is the actual implementation of Inversion of control
 # 2. Dependency Injection
