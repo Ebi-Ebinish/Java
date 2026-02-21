@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COLLECTION - QUEUE/ARRAY DEQUE.md",
+                "file": "COLLECTION - QUEUE/PRIORITY QUEUE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ARRAY DEQUE"
+              "title": "PRIORITY QUEUE"
             }
           }
         ],
@@ -323,8 +323,9 @@
   },
   "active": "93c54ea66a926476",
   "lastOpenFiles": [
-    "OPPS/POLYMORPHISM.md",
     "COLLECTION - QUEUE/ARRAY DEQUE.md",
+    "COLLECTION - QUEUE/PRIORITY QUEUE.md",
+    "OPPS/POLYMORPHISM.md",
     "COLLECTION - QUEUE",
     "COLLETIONS.md",
     "SPRING FRAMEWORK/INTRODUCTION.md",
@@ -352,7 +353,6 @@
     "PROJECT/DIGITAL SIGNATURE.md",
     "SPRING FRAMEWORK",
     "PROJECT/HASH FUNCTIONS.md",
-    "Introduction/OPERATORS.md",
     "OPPS",
     "PROTOCOL.base",
     "PROJECT",
