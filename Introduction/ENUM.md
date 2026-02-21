@@ -61,9 +61,7 @@ Color c1 = Color.RED;
 }
 ```
 
----  
-  
-  
+---   
 ## 3. ordinal()  
   
 Returns the position of the constant in the enum (starts at 0).  
@@ -75,7 +73,6 @@ System.out.println(Color.BLUE.ordinal()); // 2
 ```
   
 ---  
-  
 ## 4. compareTo()  
   
 Compares two constants by their ordinal values.  
@@ -105,7 +102,6 @@ You can also use == safely because enums are singletons:
 if (Color.RED == Color.RED) { ... } // perfectly safe
   
 ---  
-  
 ## 6. toString()  
   
 By default, returns the same as name().  
@@ -134,7 +130,6 @@ System.out.println(Color.RED.name()); // RED
 ```
 
   ---  
-  
 ## 7. valueOf()  
   
 There are two versions:  
