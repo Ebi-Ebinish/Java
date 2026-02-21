@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COLLECTION - QUEUE/QUEUE.md",
+                "file": "COLLECTION- HASHMAP/HASHMAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QUEUE"
+              "title": "HASHMAP"
             }
           }
         ],
@@ -323,8 +323,10 @@
   },
   "active": "93c54ea66a926476",
   "lastOpenFiles": [
-    "COLLECTION - QUEUE/PRIORITY QUEUE.md",
     "COLLECTION - QUEUE/QUEUE.md",
+    "COLLECTION- HASHMAP/HASHMAP.md",
+    "COLLECTION- HASHMAP",
+    "COLLECTION - QUEUE/PRIORITY QUEUE.md",
     "COLLECTION - QUEUE/ARRAY DEQUE.md",
     "OPPS/POLYMORPHISM.md",
     "COLLECTION - QUEUE",
@@ -351,7 +353,6 @@
     "PROJECT/PROTOCOLS WEB SOCKETS.md",
     "COLLECTIONS - LIST",
     "Introduction/DISICION MAKING STATEMENTS.md",
-    "PROJECT/DIGITAL SIGNATURE.md",
     "SPRING FRAMEWORK",
     "OPPS",
     "PROTOCOL.base",
