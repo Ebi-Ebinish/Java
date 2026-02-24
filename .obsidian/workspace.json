@@ -177,12 +177,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STREAMS.md",
+                "file": "INTRODUCTION/RANGE CALCULATION WITH BITS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STREAMS"
+              "title": "RANGE CALCULATION WITH BITS"
             }
           }
         ],
@@ -347,8 +347,9 @@
   },
   "active": "be94cb14ce707c98",
   "lastOpenFiles": [
-    "COLLETIONS.md",
     "STREAMS.md",
+    "INTRODUCTION/RANGE CALCULATION WITH BITS.md",
+    "COLLETIONS.md",
     "JAVA.md",
     "JAVA",
     "SPRING FRAMEWORK/INTRODUCTION.md",
@@ -376,7 +377,6 @@
     "COLLECTIONS - SET/TREESET.md",
     "COLLECTIONS - SET",
     "COLLECTIONS - LIST/VECTOR.md",
-    "COLLECTIONS - LIST/STACK.md",
     "COLLECTIONS - LIST",
     "SPRING FRAMEWORK",
     "OPPS",
