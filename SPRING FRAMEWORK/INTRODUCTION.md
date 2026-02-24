@@ -26,6 +26,7 @@ We need some technic to do IOC, that's where the Dependency Injection comes here
 The Dependency injection is the actual implementation of Inversion of control
 # 2. Dependency Injection
 
+Dependency Injection is one of the ways to achieve Inversion of Control.
 ### Lets assume with real life example:
 
 You are building a House.
@@ -55,7 +56,14 @@ Example:
 - Service needs Repository
 - Controller needs Service
 
-The needed class is called:
+The needed class is called : Dependency
 
- Dependency
+DI means: Instead of a class creating its own dependencies → **dependencies are injected** into the class from outside.
 
+Main ways Spring does DI:
+
+|Style|Annotation(s) used|When object is injected|Most popular today?|
+|---|---|---|---|
+|Constructor Injection|@Autowired (optional)|When object is created|★★★★★ (Recommended)|
+|Setter Injection|@Autowired|After object is created|★★☆☆☆|
+|Field Injection|@Autowired directly on field|After object is created|★☆☆☆☆ (avoid)|
