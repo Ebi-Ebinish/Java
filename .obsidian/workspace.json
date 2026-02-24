@@ -177,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPRING FRAMEWORK/INTRODUCTION.md",
+                "file": "KAFKA/INTRODUCTION.md",
                 "mode": "source",
                 "source": false
               },
@@ -347,12 +347,14 @@
   },
   "active": "be94cb14ce707c98",
   "lastOpenFiles": [
+    "SPRING FRAMEWORK/INTRODUCTION.md",
+    "KAFKA/INTRODUCTION.md",
+    "KAFKA",
     "INTRODUCTION/RANGE CALCULATION WITH BITS.md",
     "STREAMS.md",
     "COLLETIONS.md",
     "JAVA.md",
     "JAVA",
-    "SPRING FRAMEWORK/INTRODUCTION.md",
     "SPRING FRAMEWORK/SPRING INTRODUCTIONS ONE.md",
     "Introduction/Untitled.md",
     "INTRODUCTION/ENUM.md",
@@ -376,12 +378,10 @@
     "COLLECTIONS - SET/HASHSET.md",
     "COLLECTIONS - SET/TREESET.md",
     "COLLECTIONS - SET",
-    "COLLECTIONS - LIST/VECTOR.md",
     "COLLECTIONS - LIST",
     "SPRING FRAMEWORK",
     "OPPS",
     "PROTOCOL.base",
-    "PROJECT",
-    "test"
+    "PROJECT"
   ]
 }
