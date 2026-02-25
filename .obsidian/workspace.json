@@ -177,12 +177,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERFACE/FUNCTIONAL INTERFACE.md",
+                "file": "INTERFACE/LAMBDA EXPRESSION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FUNCTIONAL INTERFACE"
+              "title": "LAMBDA EXPRESSION"
             }
           }
         ],
@@ -347,8 +347,10 @@
   },
   "active": "be94cb14ce707c98",
   "lastOpenFiles": [
-    "INTERFACE/INTERFACE.md",
+    "Untitled.md",
+    "INTERFACE/LAMBDA EXPRESSION.md",
     "INTERFACE/FUNCTIONAL INTERFACE.md",
+    "INTERFACE/INTERFACE.md",
     "KAFKA/INTRODUCTION.md",
     "INTERFACE",
     "SPRING FRAMEWORK/INTRODUCTION.md",
@@ -376,8 +378,6 @@
     "INTRODUCTION/ACCESS MODIFIER.md",
     "PROJECT/SYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/CRYPTOGRAPHY.md",
-    "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
-    "COLLECTIONS - SET/LINKED HASHSET.md",
     "COLLECTIONS - SET",
     "COLLECTIONS - LIST",
     "SPRING FRAMEWORK",
