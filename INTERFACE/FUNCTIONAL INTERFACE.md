@@ -1,4 +1,3 @@
-
 # What is Functional Interface?
 
 * The functional interface has only one abstract method.
