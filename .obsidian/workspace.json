@@ -177,12 +177,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KAFKA/INTRODUCTION.md",
+                "file": "INTERFACE/FUNCTIONAL INTERFACE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INTRODUCTION"
+              "title": "FUNCTIONAL INTERFACE"
             }
           }
         ],
@@ -347,8 +347,11 @@
   },
   "active": "be94cb14ce707c98",
   "lastOpenFiles": [
-    "SPRING FRAMEWORK/INTRODUCTION.md",
+    "INTERFACE/INTERFACE.md",
+    "INTERFACE/FUNCTIONAL INTERFACE.md",
     "KAFKA/INTRODUCTION.md",
+    "INTERFACE",
+    "SPRING FRAMEWORK/INTRODUCTION.md",
     "KAFKA",
     "INTRODUCTION/RANGE CALCULATION WITH BITS.md",
     "STREAMS.md",
@@ -375,13 +378,10 @@
     "PROJECT/CRYPTOGRAPHY.md",
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "COLLECTIONS - SET/LINKED HASHSET.md",
-    "COLLECTIONS - SET/HASHSET.md",
-    "COLLECTIONS - SET/TREESET.md",
     "COLLECTIONS - SET",
     "COLLECTIONS - LIST",
     "SPRING FRAMEWORK",
     "OPPS",
-    "PROTOCOL.base",
-    "PROJECT"
+    "PROTOCOL.base"
   ]
 }
