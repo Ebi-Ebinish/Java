@@ -13,7 +13,6 @@ Imagine you have a food delivery app with 3 services:
 - 🛒 Order Service
 - 💳 Payment Service
 - 📧 Notification Service
-
 ### Without Kafka
 
 Order Service calls:
