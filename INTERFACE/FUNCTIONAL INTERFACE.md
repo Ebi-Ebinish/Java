@@ -44,15 +44,16 @@ public interface MyInterface {
 
 ❌ This is NOT a functional interface.
 
-#### Functional Interface With multiple 
+#### Functional Interface With multiple static and default methods
 
+```java
 @FunctionalInterface  
 interface MyFunctionalInterface {  
   
-    // ✅ Only ONE abstract method  
+    //  Only ONE abstract method  
     void execute();  
   
-    // ✅ Multiple default methods allowed  
+    //  Multiple default methods allowed  
     default void method1() {  
         System.out.println("Default Method 1");  
     }  
@@ -61,7 +62,7 @@ interface MyFunctionalInterface {
         System.out.println("Default Method 2");  
     }  
   
-    // ✅ Multiple static methods allowed  
+    //  Multiple static methods allowed  
     static void staticMethod1() {  
         System.out.println("Static Method 1");  
     }  
@@ -70,6 +71,7 @@ interface MyFunctionalInterface {
         System.out.println("Static Method 2");  
     }  
 }
+```
 
 ✔ This is still a **valid functional interface**  
 Because only **one abstract method** exists.
