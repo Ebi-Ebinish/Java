@@ -191,12 +191,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ID AUTHENTICATION/ROAD MAP.md",
+                "file": "ID AUTHENTICATION/ID AUTHENTICATION WORKFLOW.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ROAD MAP"
+              "title": "ID AUTHENTICATION WORKFLOW"
             }
           }
         ],
@@ -359,10 +359,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b373345cb93243a",
+  "active": "42f41966d55ac275",
   "lastOpenFiles": [
-    "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
     "ID AUTHENTICATION/ROAD MAP.md",
+    "ID AUTHENTICATION/ID AUTHENTICATION WORKFLOW.md",
+    "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
     "ID AUTHENTICATION",
     "INTERFACE/LAMBDA EXPRESSION.md",
     "INTERFACE/FUNCTIONAL INTERFACE.md",
@@ -392,7 +393,6 @@
     "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
     "INTRODUCTION/JAVA INTRODUCTION.md",
     "INTRODUCTION/ACCESS MODIFIER.md",
-    "PROJECT/SYMMETRIC KEY CRYPTOGRAPHY.md",
     "COLLECTIONS - SET",
     "COLLECTIONS - LIST",
     "SPRING FRAMEWORK",
