@@ -3,7 +3,11 @@
 * The functional interface has only one abstract method.
 * Or multiple static method 
 * Or multiple default method
+
+Even if you don’t write `@FunctionalInterface`, it is still functional —  
+that annotation just tells the compiler to check the rule.
 ### From Java 8:
+
 
 ```java
 @FunctionalInterface  
@@ -75,3 +79,5 @@ interface MyFunctionalInterface {
 
 ✔ This is still a **valid functional interface**  
 Because only **one abstract method** exists.
+
+# Tricky Things About Functional Interface
