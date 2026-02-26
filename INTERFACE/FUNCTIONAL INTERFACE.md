@@ -101,3 +101,24 @@ interface MyFunctionalInterface {
 Even if you don’t write `@FunctionalInterface`, it is still functional —  
 that annotation just tells the compiler to check the rule.
 
+# Tricky Things About Functional Interface
+
+This is where most developers get confused.
+## ✅ Trick #1: Object class methods don’t count
+
+Example:
+
+```java
+@FunctionalInterface  
+interface Test {  
+    void run();  
+  
+    boolean equals(Object obj);  // From Object class  
+}
+```
+
+Still valid ✅
+
+Because `equals()` is already defined in `java.lang.Object`.
+
+Java ignores Object methods when counting abstract methods.
