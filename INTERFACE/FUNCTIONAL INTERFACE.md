@@ -158,16 +158,20 @@ Only one abstract method → eligible for lambda.
 
 When you write:
 
+```java
 Runnable r = () -> System.out.println("Hello");
+```
 
 The compiler internally converts it into something like:
 
+```java
 Runnable r = new Runnable() {  
     @Override  
     public void run() {  
         System.out.println("Hello");  
     }  
 };
+```
 
 BUT ⚠
 
