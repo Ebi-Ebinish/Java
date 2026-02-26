@@ -91,10 +91,13 @@ That’s the official definition.
 
 Example:
 
+```java
 @FunctionalInterface  
 interface MyFunctionalInterface {  
     void execute();  
 }
+```
 
 Even if you don’t write `@FunctionalInterface`, it is still functional —  
 that annotation just tells the compiler to check the rule.
+
