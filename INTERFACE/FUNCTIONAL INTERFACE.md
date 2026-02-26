@@ -131,7 +131,9 @@ This is what many developers don’t know.
 
 Let’s take:
 
+```java
 Runnable r = () -> System.out.println("Hello");
+```
 
 ### Question:
 
@@ -142,9 +144,11 @@ How does it work internally?
 
 ##  Step 1: Runnable is Functional Interface
 
+```java
 public interface Runnable {  
     void run();  
 }
+```
 
 Only one abstract method → eligible for lambda.
 
