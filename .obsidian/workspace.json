@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d9ba3cefa8a1c85b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INSIDE JDK FUNCTIONALITY’S.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "INSIDE JDK FUNCTIONALITY’S"
-            }
-          },
-          {
             "id": "5f49501b8a5b3cff",
             "type": "leaf",
             "state": {
@@ -163,34 +149,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COLLETIONS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "COLLETIONS"
-            }
-          },
-          {
-            "id": "be94cb14ce707c98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IDA - FIR CERTIFICATE RENEWAL"
-            }
-          },
-          {
-            "id": "42f41966d55ac275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "INTERFACE/FUNCTIONAL INTERFACE.md",
                 "mode": "source",
                 "source": false
@@ -200,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -232,7 +190,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tricky",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -253,8 +211,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -360,17 +317,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "217efd92a7e11ed7",
+  "active": "0d2be68d437fd37b",
   "lastOpenFiles": [
-    "INTERFACE/LAMBDA EXPRESSION.md",
+    "INTERFACE/INTERFACE.md",
     "COLLETIONS.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
+    "2026-02-26.md",
+    "INTERFACE/FUNCTIONAL INTERFACE.md",
+    "INTERFACE/LAMBDA EXPRESSION.md",
     "STREAMS.md",
     "ID AUTHENTICATION/ID AUTHENTICATION WORKFLOW.md",
     "ID AUTHENTICATION/ROAD MAP.md",
-    "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
     "ID AUTHENTICATION",
-    "INTERFACE/FUNCTIONAL INTERFACE.md",
-    "INTERFACE/INTERFACE.md",
     "KAFKA/INTRODUCTION.md",
     "INTERFACE",
     "SPRING FRAMEWORK/INTRODUCTION.md",
@@ -392,8 +352,6 @@
     "INTRODUCTION/PROGRAMMING LANGUAGE.md",
     "INTRODUCTION/METHODS CONSTRUCTOR.md",
     "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
-    "INTRODUCTION/JAVA INTRODUCTION.md",
-    "INTRODUCTION/ACCESS MODIFIER.md",
     "COLLECTIONS - SET",
     "COLLECTIONS - LIST",
     "SPRING FRAMEWORK",

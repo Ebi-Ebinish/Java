@@ -26,7 +26,6 @@ Wildcard is unknown type
 void printList(List<?> list) {
     // works with any kind of list
 }
-
 ```
 
 ### **Limitation:**

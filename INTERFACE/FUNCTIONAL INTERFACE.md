@@ -81,3 +81,20 @@ interface MyFunctionalInterface {
 Because only **one abstract method** exists.
 
 # Tricky Things About Functional Interface
+# What Exactly Is a Functional Interface?
+
+A **Functional Interface** is:
+
+> An interface that has **exactly one abstract method**.
+
+That’s the official definition.
+
+Example:
+
+@FunctionalInterface  
+interface MyFunctionalInterface {  
+    void execute();  
+}
+
+Even if you don’t write `@FunctionalInterface`, it is still functional —  
+that annotation just tells the compiler to check the rule.
