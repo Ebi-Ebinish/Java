@@ -141,7 +141,6 @@ Where is the object created?
 How does it work internally?
 
 ---
-
 ##  Step 1: Runnable is Functional Interface
 
 ```java
@@ -153,7 +152,6 @@ public interface Runnable {
 Only one abstract method → eligible for lambda.
 
 ---
-
 ##  Step 2: Compiler Converts Lambda
 
 When you write:
