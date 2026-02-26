@@ -122,3 +122,49 @@ Still valid ✅
 Because `equals()` is already defined in `java.lang.Object`.
 
 Java ignores Object methods when counting abstract methods.
+
+#  Now the Most Important Part 
+
+# How Object Is Created Internally With Lambda?
+
+This is what many developers don’t know.
+
+Let’s take:
+
+Runnable r = () -> System.out.println("Hello");
+
+### Question:
+
+Where is the object created?  
+How does it work internally?
+
+---
+
+##  Step 1: Runnable is Functional Interface
+
+public interface Runnable {  
+    void run();  
+}
+
+Only one abstract method → eligible for lambda.
+
+---
+
+##  Step 2: Compiler Converts Lambda
+
+When you write:
+
+Runnable r = () -> System.out.println("Hello");
+
+The compiler internally converts it into something like:
+
+Runnable r = new Runnable() {  
+    @Override  
+    public void run() {  
+        System.out.println("Hello");  
+    }  
+};
+
+BUT ⚠
+
+After Java 8, it is NOT actually creating an anonymous inner class.
