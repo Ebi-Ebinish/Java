@@ -30,7 +30,7 @@ list.stream()
 
 So the pipeline always starts from some source, which is usually a Collection.
 
-Every S
+Every Stream has source --> Intermediator --> Terminator. 
 ### How Stream processes data?
 
 Streams use **lazy evaluation**.
