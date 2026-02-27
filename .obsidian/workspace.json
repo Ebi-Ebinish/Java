@@ -149,12 +149,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERFACE/FUNCTIONAL INTERFACE.md",
+                "file": "INTRODUCTION/METHODS CONSTRUCTOR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FUNCTIONAL INTERFACE"
+              "title": "METHODS CONSTRUCTOR"
             }
           }
         ],
@@ -319,14 +319,20 @@
   },
   "active": "0d2be68d437fd37b",
   "lastOpenFiles": [
+    "INTRODUCTION/OPERATORS.md",
+    "INTRODUCTION/PROGRAMMING LANGUAGE.md",
+    "INTRODUCTION/METHODS CONSTRUCTOR.md",
+    "INTRODUCTION/JAVA INTRODUCTION.md",
+    "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
+    "OPPS/INHERTENCE.md",
+    "INTERFACE/LAMBDA EXPRESSION.md",
+    "INTERFACE/FUNCTIONAL INTERFACE.md",
     "INTERFACE/INTERFACE.md",
     "COLLETIONS.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
     "2026-02-26.md",
-    "INTERFACE/FUNCTIONAL INTERFACE.md",
-    "INTERFACE/LAMBDA EXPRESSION.md",
     "STREAMS.md",
     "ID AUTHENTICATION/ID AUTHENTICATION WORKFLOW.md",
     "ID AUTHENTICATION/ROAD MAP.md",
@@ -346,12 +352,7 @@
     "COLLECTION- HASHMAP",
     "COLLECTION - QUEUE/PRIORITY QUEUE.md",
     "COLLECTION - QUEUE/ARRAY DEQUE.md",
-    "OPPS/POLYMORPHISM.md",
     "COLLECTION - QUEUE",
-    "INTRODUCTION/DATA TYPES.md",
-    "INTRODUCTION/PROGRAMMING LANGUAGE.md",
-    "INTRODUCTION/METHODS CONSTRUCTOR.md",
-    "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
     "COLLECTIONS - SET",
     "COLLECTIONS - LIST",
     "SPRING FRAMEWORK",
