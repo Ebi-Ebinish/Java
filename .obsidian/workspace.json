@@ -149,12 +149,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRODUCTION/METHODS CONSTRUCTOR.md",
+                "file": "STREAMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "METHODS CONSTRUCTOR"
+              "title": "STREAMS"
             }
           }
         ],
@@ -319,9 +319,9 @@
   },
   "active": "0d2be68d437fd37b",
   "lastOpenFiles": [
+    "INTRODUCTION/METHODS CONSTRUCTOR.md",
     "INTRODUCTION/OPERATORS.md",
     "INTRODUCTION/PROGRAMMING LANGUAGE.md",
-    "INTRODUCTION/METHODS CONSTRUCTOR.md",
     "INTRODUCTION/JAVA INTRODUCTION.md",
     "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
     "OPPS/INHERTENCE.md",
