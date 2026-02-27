@@ -174,3 +174,10 @@ Runnable r = new Runnable() {
 BUT ⚠
 
 After Java 8, it is NOT actually creating an anonymous inner class.
+### So internally:
+
+1. Compiler sees lambda
+2. It checks target type (functional interface)
+3. It generates a private synthetic method
+4. JVM dynamically creates implementation at runtime
+5. That implementation is assigned to reference variable
