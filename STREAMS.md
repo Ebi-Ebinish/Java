@@ -43,3 +43,6 @@ That means:
 This final operation is called a **Terminal Operation**.
 
 Until then → no data moves in the pipeline!
+# The Stream Pipeline
+
+### What is Stream pi
