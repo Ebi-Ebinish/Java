@@ -43,6 +43,48 @@ That means:
 This final operation is called a **Terminal Operation**.
 
 Until then → no data moves in the pipeline!
-# The Stream Pipeline
+# hy Streams Were Introduced?
 
-### What is Stream pi
+Before Java 8, we used:
+
+- for loop
+    
+- enhanced for loop
+    
+- Iterator
+    
+
+Example:
+
+List<String> names = Arrays.asList("Ram", "Shyam", "Mohan");  
+  
+for (String name : names) {  
+    if (name.startsWith("R")) {  
+        System.out.println(name);  
+    }  
+}
+
+Problems with traditional looping:
+
+1. Code is verbose
+    
+2. Hard to parallelize
+    
+3. Focus is on _how_ to do it (iteration logic)
+    
+4. More boilerplate code
+    
+
+Java 8 introduced:
+
+- Lambda expressions
+    
+- Functional interfaces
+    
+- Streams API
+    
+
+To shift from:
+
+❌ Imperative style →  
+✅ Declarative style
