@@ -79,5 +79,23 @@ Java 8 introduced:
 
 To shift from:
 
-❌ Imperative style →  
-✅ Declarative style
+ Imperative style →  
+ Declarative style
+
+# Stream Example
+
+Same example using Stream:
+
+```java
+names.stream()  
+     .filter(name -> name.startsWith("R"))  
+     .forEach(System.out::println);
+```
+
+Now we are saying:
+
+> “Filter names that start with R and print them”
+
+We are NOT saying how to iterate.
+
+That’s the key difference.
