@@ -32,3 +32,35 @@ This is **imperative control flow**.
 
 # DECLARATIVE
 
+In declarative you avoid the above the thinks.
+# Example (Stream)
+```java
+List<String> result = names.stream()
+    .filter(n -> n.startsWith("A"))
+    .map(String::toUpperCase)
+    .toList();
+```
+
+### What is happening technically?
+
+You define:
+
+- A pipeline of **stateless operations**
+- Functional transformations (`filter`, `map`)
+- A terminal operation (`toList()`)
+
+## You do NOT define:
+
+- How iteration occurs
+- How elements are stored internally
+- When exactly each step executes
+- Whether execution is sequential or parallel    
+
+## The Stream API manages:
+
+- Internal iteration
+- Laziness
+- Optimization
+- Potential parallel execution
+
+This is **declarative data processing**.
