@@ -65,4 +65,5 @@ You define:
 
 This is **declarative data processing**.
 
-## The final thinks is Stream are declara
+## The final thinks is Stream are declarative 
+
