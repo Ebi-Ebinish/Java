@@ -64,3 +64,5 @@ You define:
 - Potential parallel execution
 
 This is **declarative data processing**.
+
+## The final thinks is Stream are declara
