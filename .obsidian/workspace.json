@@ -149,7 +149,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STREAMS.md",
+                "file": "JAVA VERSION 8/STREAMS.md",
                 "mode": "source",
                 "source": false
               },
@@ -177,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STREAMS.md",
+                "file": "JAVA VERSION 8/STREAMS.md",
                 "mode": "source",
                 "source": false
               },
@@ -345,22 +345,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "3ab277b945674cae",
+  "active": "b1b481368ed3cab1",
   "lastOpenFiles": [
+    "JAVA VERSION 8.md",
+    "JAVA VERSION 8",
+    "JAVA VERSION 8/STREAMS.md",
     "INTERFACE/FUNCTIONAL INTERFACE.md",
     "HYBRID CRYPTOGRAPHY.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "2026-02-26.md",
     "PROBLEMS AND THE WAYS.md",
-    "STREAMS.md",
     "INTRODUCTION/METHODS CONSTRUCTOR.md",
     "INTRODUCTION/OPERATORS.md",
     "INTRODUCTION/PROGRAMMING LANGUAGE.md",
     "INTRODUCTION/JAVA INTRODUCTION.md",
     "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
     "OPPS/INHERTENCE.md",
-    "INTERFACE/LAMBDA EXPRESSION.md",
+    "JAVA VERSION 8/LAMBDA EXPRESSION.md",
     "INTERFACE/INTERFACE.md",
     "COLLETIONS.md",
     "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
@@ -377,12 +379,10 @@
     "SPRING FRAMEWORK/SPRING INTRODUCTIONS ONE.md",
     "Introduction/Untitled.md",
     "INTRODUCTION/ENUM.md",
-    "COLLECTION- HASHMAP/HASHMAP.md",
     "COLLECTION- HASHMAP",
     "COLLECTION - QUEUE",
     "COLLECTIONS - SET",
     "COLLECTIONS - LIST",
-    "SPRING FRAMEWORK",
-    "OPPS"
+    "SPRING FRAMEWORK"
   ]
 }
