@@ -98,4 +98,15 @@ Now we are saying:
 
 We are NOT saying how to iterate.
 
-That’s the key difference.
+That’s the key difference and that's called declarative.
+# Collection vs Stream
+
+This is VERY important.
+
+| Feature       | Collection         | Stream             |
+| ------------- | ------------------ | ------------------ |
+| Stores data?  | Yes                |  No                |
+| Memory?       | Stores in memory   | Does not store     |
+| Modification? | Can modify         | Cannot modify      |
+| Traversal     | External iteration | Internal iteration |
+| Reusable?     | Yes                | No (one-time use)  |
