@@ -125,4 +125,18 @@ list.stream().filter(newList ->newList.endsWith("h")).forEach(System.out::printl
  System.out.println(result);
 ```
 
-Here the list.stream() is source. 
+### Source  
+`list.stream()`
+### Intermediate Operations
+
+- filter()
+- map()
+### Terminal Operation
+
+- collect()
+
+Without terminal operation → NOTHING executes.
+
+This is called:
+
+ **Lazy Evaluation** 

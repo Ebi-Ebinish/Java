@@ -232,7 +232,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Source",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -359,7 +359,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "a1fc4934b224f839",
+  "active": "1b373345cb93243a",
   "lastOpenFiles": [
     "JAVA VERSION 8/LAMBDA EXPRESSION.md",
     "JAVA VERSION 8/IMPERATIVE & DECLARATIVE.md",
