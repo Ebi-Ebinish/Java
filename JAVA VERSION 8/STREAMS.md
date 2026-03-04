@@ -116,3 +116,13 @@ Stream internally works like a pipeline:
 
 Source --> Intermediate --> Terminal Operation.
 
+### Example
+
+```java
+list.stream().filter(newList ->newList.endsWith("h")).forEach(System.out::println);
+
+  List<String> result = newList.stream().filter(newL -> newL.endsWith("h")).collect(Collectors.toList());
+ System.out.println(result);
+```
+
+Here the list.stream() is source. 
