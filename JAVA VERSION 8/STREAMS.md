@@ -139,4 +139,17 @@ Without terminal operation → NOTHING executes.
 
 This is called:
 
- **Lazy Evaluation** 
+ **Lazy Evaluation**
+ 
+# What Happens Internally?
+
+When you call:
+
+```java
+list.stream()
+```
+
+Internally:
+
+- Collection creates a Stream object
+- It creates a **Spliterator**
