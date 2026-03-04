@@ -110,3 +110,9 @@ This is VERY important.
 | Modification? | Can modify         | Cannot modify      |
 | Traversal     | External iteration | Internal iteration |
 | Reusable?     | Yes                | No (one-time use)  |
+# INTERNAL ARCHITECHTURE OF STREAMS 
+
+Stream internally works like a pipeline:
+
+Source --> Intermediate --> Terminal Operation.
+
