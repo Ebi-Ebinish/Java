@@ -165,3 +165,40 @@ This is the backbone of:
 ```java
 parallelStream()
 ```
+
+## Stream Pipeline Internally
+
+Stream creates a chain of objects.
+
+Each intermediate operation (filter, map) creates:
+
+- A new Stream stage
+- But does NOT process data immediately
+
+It builds a pipeline structure.
+
+Only when terminal operation is called:
+
+collect()
+
+Then:
+
+- Elements flow one-by-one
+- Through filter
+- Then map
+- Then collect
+
+It does NOT:
+
+ First filter entire list  
+ Then map entire list
+
+Instead:
+
+For each element:
+
+```code
+element → filter → map → collect
+```
+
+This is more memory efficient.
