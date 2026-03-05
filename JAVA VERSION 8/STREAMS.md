@@ -153,3 +153,15 @@ Internally:
 
 - Collection creates a Stream object
 - It creates a **Spliterator**
+- What is Spliterator?
+
+It is a special iterator that:
+
+- Traverses elements
+- Can split data for parallel processing
+
+This is the backbone of:
+
+```java
+parallelStream()
+```
