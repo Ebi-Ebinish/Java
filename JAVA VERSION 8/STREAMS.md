@@ -238,3 +238,48 @@ List<Integer> list = List.of(1,2,3);
 list.stream().forEach(System.out::println);  
 list.stream().forEach(System.out::println);
 ```
+
+# How java detects the Stream is used or not ?
+
+Internally the stream class has a **flag**.
+
+In the base stream class:
+
+```java
+java.util.stream.AbstractPipeline
+```
+
+There is a variable like this:
+
+```java
+boolean linkedOrConsumed;
+```
+
+Flow internally:
+
+```code
+stream created  
+linkedOrConsumed = false
+```
+
+When terminal operation runs:
+
+```java
+if(linkedOrConsumed)  
+    throw IllegalStateException  
+else  
+    linkedOrConsumed = true
+```
+
+So internally Java does something like:
+
+Pseudo code:
+
+```java
+if(stream.linkedOrConsumed == true)  
+    throw IllegalStateException  
+else  
+    mark consumed
+```
+
+That is how reuse is **predicted and prevented**.
