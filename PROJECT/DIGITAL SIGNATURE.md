@@ -51,4 +51,3 @@ If both match:
 
  Message not modified  
  Sender is authentic  
- Cannot deny sending
