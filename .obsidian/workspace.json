@@ -191,12 +191,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
+                "file": "JAVA VERSION 8/STREAMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASYMMETRIC KEY CRYPTOGRAPHY"
+              "title": "STREAMS"
             }
           }
         ],
@@ -359,8 +359,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b373345cb93243a",
+  "active": "a1fc4934b224f839",
   "lastOpenFiles": [
+    "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/AES - ADVANCED ENCRYPTION SYSTEM.md",
     "PROJECT/HYBRID CRYPTOGRAPHY.md",
     "JAVA VERSION 8/STREAMS.md",
@@ -393,7 +394,6 @@
     "JAVA.md",
     "JAVA",
     "SPRING FRAMEWORK/SPRING INTRODUCTIONS ONE.md",
-    "Introduction/Untitled.md",
     "COLLECTION- HASHMAP",
     "COLLECTION - QUEUE",
     "COLLECTIONS - SET",

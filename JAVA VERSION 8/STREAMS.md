@@ -202,3 +202,39 @@ element → filter → map → collect
 ```
 
 This is more memory efficient.
+
+# Stream Can Be Consumed Only Once
+
+This is a **very tricky mistake** many developers do.
+
+Example:
+
+```java
+Stream<Integer> stream = List.of(1,2,3).stream();  
+  
+stream.forEach(System.out::println);  
+  
+stream.forEach(System.out::println); // ERROR
+```
+Error:
+
+```java
+java.lang.IllegalStateException: stream has already been operated upon or closed
+```
+
+Why?
+
+Internally:
+
+Stream → pipeline → executed → closed
+
+Once closed → cannot reuse.
+
+Correct way:
+
+```java
+List<Integer> list = List.of(1,2,3);  
+  
+list.stream().forEach(System.out::println);  
+list.stream().forEach(System.out::println);
+```
