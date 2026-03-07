@@ -58,3 +58,16 @@ Reference → interface
 Object → implementing class
 ```
 This is called **Runtime Polymorphism**.
+# Interface vs Class
+
+|Feature|Class|Interface|
+|---|---|---|
+|Object creation|Yes|No|
+|Methods|Concrete + Abstract|Mostly abstract|
+|Fields|Instance variables|Only constants|
+|Inheritance|Single|Multiple|
+
+Example:
+
+class → extends  
+interface → implements
