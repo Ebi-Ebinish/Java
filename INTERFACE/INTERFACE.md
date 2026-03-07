@@ -43,3 +43,18 @@ class UpiPayment implements Payment {
   
 }
 ```
+
+# Using Interface
+
+```java
+Payment payment = new CreditCardPayment();  
+payment.pay(1000);
+```
+
+Important concept:
+
+```java
+Reference → interface  
+Object → implementing class
+```
+This is called **Runtime Polymorphism**.
