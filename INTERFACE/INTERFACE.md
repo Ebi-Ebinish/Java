@@ -51,12 +51,6 @@ Payment payment = new CreditCardPayment();
 payment.pay(1000);
 ```
 
-Important concept:
-
-```java
-Reference → interface  
-Object → implementing class
-```
 This is called **Runtime Polymorphism**.
 # Interface vs Class
 
@@ -71,3 +65,13 @@ Example:
 
 class → extends  
 interface → implements
+
+# IMPORTANT 
+
+Reference must be the interface name while creating the object and the object name that implemented classes.
+
+```java
+Reference → interface  
+Object → implementing class
+```
+
