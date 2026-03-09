@@ -75,3 +75,9 @@ Reference → interface
 Object → implementing class
 ```
 
+# Variables 
+
+Interface variables are always public final.
+
+why:
+	
