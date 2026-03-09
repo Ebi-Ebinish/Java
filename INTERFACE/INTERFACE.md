@@ -99,4 +99,4 @@ class Demo implements Test {
     }  
 }
 
-⚠️ Trying to change it will give **compile-time error**.
+ Trying to change it will give **compile-time error**.
