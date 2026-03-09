@@ -80,4 +80,23 @@ Object → implementing class
 Interface variables are always public final.
 
 why:
-	
+# Variables in Interface are Always `public static final`
+
+In an interface, every variable is **automatically constant**.
+
+interface Test {  
+    int x = 10;   // actually: public static final int x = 10;  
+}
+
+- You **cannot change** `x`.
+    
+- It is **shared by all classes**.
+    
+
+class Demo implements Test {  
+    public static void main(String[] args) {  
+        System.out.println(x);  
+    }  
+}
+
+⚠️ Trying to change it will give **compile-time error**.
