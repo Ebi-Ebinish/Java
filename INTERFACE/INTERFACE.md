@@ -71,6 +71,12 @@ interface → implements
 
 Reference must be the interface name while creating the object and the object name that implemented classes.
 
+By default the interface abstract methods are the public if you not put also It will be consider as a public.
+
+When you implemented the interface you enforced to mention public to access every where.
+
+when implemented time if you not put the public means the compile time error will occurs.
+
 ```java
 Reference → interface  
 Object → implementing class
