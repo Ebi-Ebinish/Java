@@ -82,7 +82,8 @@ Reference → interface
 Object → implementing class
 ```
 
-# MUlTIPLE 
+# MULTIPLE INHERITENCE
+
 Through this interface we can archive multiple interface by implementing multiple interface in a single class.
 Example:
 ```java
