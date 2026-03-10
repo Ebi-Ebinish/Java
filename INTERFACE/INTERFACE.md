@@ -6,11 +6,13 @@ It defines **WHAT a class must do**, but **not HOW it does it**.
 
 Example:
 
+```java
 interface Payment {  
   
     void pay(int amount);  
   
 }
+```
 
 Here:
 
@@ -83,19 +85,21 @@ why:
 
 In an interface, every variable is **automatically constant**.
 
+```java
 interface Test {  
     int x = 10;   // actually: public static final int x = 10;  
 }
+```
 
 - You **cannot change** `x`.
-    
 - It is **shared by all classes**.
-    
 
+```java
 class Demo implements Test {  
     public static void main(String[] args) {  
         System.out.println(x);  
     }  
 }
+```
 
  Trying to change it will give **compile-time error**.
