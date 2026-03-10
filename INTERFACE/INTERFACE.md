@@ -82,6 +82,24 @@ Reference → interface
 Object → implementing class
 ```
 
+# MUlTIPLE 
+Through this interface we can archive multiple interface by implementing multiple interface in a single class.
+Example:
+```java
+interface A {
+    void methodA();
+}
+
+interface B {
+    void methodB();
+}
+
+class C implements A, B {
+    public void methodA() {}
+    public void methodB() {}
+}
+```
+
 # Variables 
 
 Interface variables are always public final.
