@@ -18,7 +18,6 @@ pay() → only declared
 no body
 
 ---
-
 #  Implementing an Interface
 A class implements the interface and provides the **actual logic**.
 
