@@ -21,6 +21,9 @@ no body
 
 ---
 #  Implementing an Interface
+
+Any class that **implements the interface must implement the method**.
+
 A class implements the interface and provides the **actual logic**.
 
 ```java
@@ -128,3 +131,7 @@ class Demo implements Test {
 ```
 
  Trying to change it will give **compile-time error**.
+
+# Default 
+
+If you mention the interface methods with default it has body.
