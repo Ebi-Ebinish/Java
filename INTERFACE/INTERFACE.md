@@ -134,4 +134,21 @@ class Demo implements Test {
 
 # Default 
 
-If you mention the interface methods with default it has body.
+If you mention the interface methods with default it has body. 
+
+If you override that time also it must be public 
+
+1. **Both interfaces have the same abstract method signature**.
+    
+    - Example: `void doSomething();` in both `A` and `B`.
+2. **A class implements both interfaces**.
+    
+    - The class provides **one concrete implementation** of `doSomething()`.
+3. **Java allows this** because **abstract methods don’t carry any code**, so there’s no ambiguity — the single method satisfies both interfaces.
+    
+4. **Only time an error occurs** is if:
+    
+    - Both interfaces have **default methods** with the same signature and the class doesn’t override it.
+    - Then Java would throw a **compile-time conflict**.
+
+So for your exact case with **abstract methods only**, your code **compiles and runs fine**, no error at all.
