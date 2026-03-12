@@ -3,7 +3,7 @@
 ## What is abstraction?
 Abstraction is hiding the implementation of the class and showing the details.  
 
-In words we know what happens,  
+In words, we know what happens,  
 But we don’t know how it’s happens  
 
 ### Example:
@@ -13,6 +13,7 @@ It focuses on what an object does rather than how it does it.
 
 ---
 ## What is Concrete Method in Java?
+
 In Java, a concrete method is a method that has a complete implementation or definition. This means it contains a method body with executable code, unlike an abstract method which only has a declaration and no implementation.
 
 ### Key characteristics of concrete methods:
