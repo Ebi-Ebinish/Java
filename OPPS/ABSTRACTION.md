@@ -173,7 +173,8 @@ And abstract methods must be overridden, so these modifiers make no sense.
 
 1. According to interface, enforce to implements abstract method to be defined in interface which is does not have relationship (Relationship means – Each interface and its class have their own set of rules).
 2. Abstraction could be links between two classes which can share their things like Inheritance and it make sensible relationship.
-3. even though you can't call the parent constructor java automatically calls the parent constructor first super();
+3. even though you can't call the parent constructor java automatically calls the parent constructor first super(); why because the child object contain the parent part.
+4. when the parent constructor have parameter java doesn't calls automatically why because you must pass the argument in the child implementation. Otherwise java will give error.
 
 # The object creation
 
