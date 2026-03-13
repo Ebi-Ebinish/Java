@@ -15,3 +15,14 @@
 4. If connected it will show list of applet and files. if not connects it shows relevant error.
 5. Then execute decrypted '.jcsh' file. sample command --> '"E:\Downloads\Viber downloads\documents\BU_A3F3-B75B\JCOP_0001B75B476BC564195DA586_255B-bu-0001A3F320811EE2E32B1804.jcsh"'.
 6. After successfully executes use this command to terminates -> '/close'.
+
+
+This commands use to generate the fab key that fab key used for generate the enc, mac, k dec.
+
+/term
+/card
+/send 80CA00FE02DF2800
+
+This commends run in the jcshell.
+
+
