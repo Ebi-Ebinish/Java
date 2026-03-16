@@ -61,3 +61,12 @@ Yes  **an object is still created**, but:
 |JVM instruction|`new`|`invokedynamic`|
 |Performance|Slightly slower|Faster|
 |Code size|Large|Small|
+
+# Visual Comparison
+
+|Feature|Anonymous Class|Lambda|
+|---|---|---|
+|Class files|Test.class + Test$1.class|Test.class only|
+|JVM instruction|`new`|`invokedynamic`|
+|Object creation|Direct|Dynamic via JVM|
+|Performance|Slightly heavier|More optimized|
