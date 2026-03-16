@@ -35,3 +35,11 @@ Example:
 ```java
 MyInterface obj = () -> System.out.println("Hello");
 ```
+
+### Internally what happens
+
+Java **does NOT create a separate anonymous class file** like before.
+
+Instead, Java uses:
+
+### **`invokedynamic` instruction + LambdaMetaFactory**
