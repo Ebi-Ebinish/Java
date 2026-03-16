@@ -43,3 +43,21 @@ Java **does NOT create a separate anonymous class file** like before.
 Instead, Java uses:
 
 ### **`invokedynamic` instruction + LambdaMetaFactory**
+
+# Object Creation in Lambda
+
+Yes  **an object is still created**, but:
+
+- It is created **dynamically by JVM**
+- Uses **invokedynamic**
+- **No extra class file**
+- **Better performance**
+
+# Anonymous Class vs Lambda
+
+|Feature|Anonymous Class|Lambda|
+|---|---|---|
+|Class file|New class generated|No new class|
+|JVM instruction|`new`|`invokedynamic`|
+|Performance|Slightly slower|Faster|
+|Code size|Large|Small|
