@@ -10,9 +10,6 @@ Think of it like:
 ## Why use Threads?
 
 - Perform multiple tasks simultaneously
-    
 - Improve performance (especially for I/O tasks)
-    
 - Better CPU utilization
-    
 - Background work (e.g., downloading files while UI is active)
