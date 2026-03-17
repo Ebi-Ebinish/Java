@@ -205,12 +205,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA VERSION 8/LAMBDA EXPRESSION.md",
+                "file": "INTRODUCTION/PROGRAMMING LANGUAGE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LAMBDA EXPRESSION"
+              "title": "PROGRAMMING LANGUAGE"
             }
           }
         ],
@@ -375,9 +375,12 @@
   },
   "active": "4897f39d762013e2",
   "lastOpenFiles": [
+    "INTRODUCTION/JAVA INTRODUCTION.md",
+    "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
+    "INTRODUCTION/ACCESS MODIFIER.md",
+    "JAVA VERSION 8/LAMBDA EXPRESSION.md",
     "JAVA VERSION 8/STREAMS.md",
     "JAVA VERSION 8/IMPERATIVE & DECLARATIVE.md",
-    "JAVA VERSION 8/LAMBDA EXPRESSION.md",
     "COLLETIONS.md",
     "README.md",
     "PROBLEMS AND THE WAYS.md",
@@ -398,12 +401,9 @@
     "INTRODUCTION/METHODS CONSTRUCTOR.md",
     "INTRODUCTION/OPERATORS.md",
     "INTRODUCTION/PROGRAMMING LANGUAGE.md",
-    "INTRODUCTION/JAVA INTRODUCTION.md",
-    "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
     "OPPS/INHERTENCE.md",
     "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
     "ID AUTHENTICATION/ID AUTHENTICATION WORKFLOW.md",
-    "ID AUTHENTICATION/ROAD MAP.md",
     "ID AUTHENTICATION",
     "INTERFACE",
     "KAFKA",
