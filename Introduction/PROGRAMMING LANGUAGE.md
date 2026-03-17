@@ -24,7 +24,7 @@ It is a bridge between the user and the computer to communicate. Computers under
 
 ---
 
-## What is a High-Level Language?
+## What is a High-Level Language? . 
 
 - Reaches hardware with some intermediate steps, not directly.
 - Requires translation using a **compiler** or **interpreter**.
