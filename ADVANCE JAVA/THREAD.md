@@ -6,3 +6,13 @@ Think of it like:
 
 - One program = one process
 - Multiple threads = multiple tasks running inside that process
+
+## Why use Threads?
+
+- Perform multiple tasks simultaneously
+    
+- Improve performance (especially for I/O tasks)
+    
+- Better CPU utilization
+    
+- Background work (e.g., downloading files while UI is active)
