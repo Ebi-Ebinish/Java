@@ -54,3 +54,8 @@ public class Main {
     }  
 }
 ```
+
+## Important:
+
+👉 `start()` creates a new thread  
+👉 `run()` is just a normal method call
