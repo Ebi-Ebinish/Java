@@ -13,7 +13,7 @@ Think of it like:
 - Improve performance (especially for I/O tasks)
 - Better CPU utilization
 - Background work (e.g., downloading files while UI is active)
-# 2. Why Threads Exist?
+#  Why Threads Exist?
 
 Without threads:
 
@@ -30,3 +30,27 @@ Download file + Play music + UI interaction
 
 Without threads → slow & blocked  
 With threads → smooth & parallel feel
+
+# How Java Supports Threads
+
+Java has **built-in multithreading support**.
+
+There are **2 main ways to create threads:**
+
+---
+##  Method 1: Extending Thread class
+
+```java
+class MyThread extends Thread {  
+    public void run() {  
+        System.out.println("Thread is running");  
+    }  
+}  
+  
+public class Main {  
+    public static void main(String[] args) {  
+        MyThread t = new MyThread();  
+        t.start(); // NOT run()  
+    }  
+}
+```
