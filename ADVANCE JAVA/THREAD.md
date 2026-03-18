@@ -59,3 +59,34 @@ public class Main {
 
 👉 `start()` creates a new thread  
 👉 `run()` is just a normal method call
+
+# What Happens Internally When You Call start()?
+
+This is where things get interesting 
+
+### Step-by-step internal flow:
+
+1. You call:
+
+    t.start();
+    
+2. JVM calls **native method**:
+    
+    private native void start0();
+    
+3. OS creates a **new native thread**
+    
+4. JVM registers this thread with:
+    
+    - Thread Scheduler
+        
+    - Thread Stack
+        
+    - Program Counter (PC Register)
+        
+5. Then JVM calls:
+    
+    run();
+    
+
+👉 So actual execution happens inside `run()`, but in a **separate call stack**
