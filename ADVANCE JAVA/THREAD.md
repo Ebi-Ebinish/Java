@@ -57,8 +57,8 @@ public class Main {
 
 ## Important:
 
-👉 `start()` creates a new thread  
-👉 `run()` is just a normal method call
+ `start()` creates a new thread  
+ `run()` is just a normal method call
 
 # What Happens Internally When You Call start()?
 
@@ -78,4 +78,4 @@ This is where things get interesting
 5. Then JVM calls:
     run();
 
-👉 So actual execution happens inside `run()`, but in a **separate call stack**
+ So actual execution happens inside `run()`, but in a **separate call stack**
