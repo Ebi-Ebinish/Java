@@ -90,3 +90,23 @@ Each thread has its own:
 But shares:
 
 - **Heap Memory** (objects)
+
+#  Thread Scheduler (Core Concept)
+
+Java does NOT control execution order.
+
+👉 OS Thread Scheduler decides:
+
+- Which thread runs
+    
+- How long it runs
+    
+
+### Types:
+
+- Preemptive scheduling
+    
+- Time slicing
+    
+
+👉 That’s why output is **not predictable**
