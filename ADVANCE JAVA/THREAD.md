@@ -84,11 +84,8 @@ This is where things get interesting
 Each thread has its own:
 
 - **Stack Memory** (local variables)
-    
 - **Program Counter**
-    
 - **Registers**
-    
 
 But shares:
 
