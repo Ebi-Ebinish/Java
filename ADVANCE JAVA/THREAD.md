@@ -79,3 +79,17 @@ This is where things get interesting
     run();
 
  So actual execution happens inside `run()`, but in a **separate call stack**
+#  Memory Model of Threads (Internal View)
+
+Each thread has its own:
+
+- **Stack Memory** (local variables)
+    
+- **Program Counter**
+    
+- **Registers**
+    
+
+But shares:
+
+- **Heap Memory** (objects)
