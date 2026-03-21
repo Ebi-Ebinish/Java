@@ -106,3 +106,9 @@ Java does NOT control execution order.
 - Time slicing
 
  That’s why output is **not predictable**
+# Callable vs Runnable
+
+| Feature      | Runnable | Callable |
+| ------------ | -------- | -------- |
+| Return value | No       | Yes      |
+| Exception    | No       |  Yes     |
