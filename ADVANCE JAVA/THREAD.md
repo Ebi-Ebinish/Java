@@ -127,13 +127,8 @@ CPU Execution
 # Key Takeaways
 
 - Thread = lightweight execution unit
-    
 - `start()` creates new thread (via OS)
-    
 - Each thread has separate stack
-    
 - Shared heap → causes race conditions
-    
 - Synchronization solves concurrency issues
-    
 - ExecutorService = best practice
