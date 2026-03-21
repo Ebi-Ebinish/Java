@@ -112,3 +112,15 @@ Java does NOT control execution order.
 | ------------ | -------- | -------- |
 | Return value | No       | Yes      |
 | Exception    | No       |  Yes     |
+# Real Internal Architecture
+
+```code
+Java Thread  
+   ↓  
+JVM Thread (Java Thread API)  
+   ↓  
+Native Thread (OS Thread)  
+   ↓  
+CPU Execution
+```
+
