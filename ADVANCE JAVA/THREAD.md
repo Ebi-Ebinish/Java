@@ -63,7 +63,6 @@ public class Main {
 # What Happens Internally When You Call start()?
 
 This is where things get interesting 
-
 ### Step-by-step internal flow:
 
 1. You call:
@@ -90,7 +89,6 @@ Each thread has its own:
 But shares:
 
 - **Heap Memory** (objects)
-
 #  Thread Scheduler (Core Concept)
 
 Java does NOT control execution order.
@@ -99,7 +97,6 @@ Java does NOT control execution order.
 
 - Which thread runs
 - How long it runs
-
 ### Types:
 
 - Preemptive scheduling
@@ -123,7 +120,6 @@ Native Thread (OS Thread)
    ↓  
 CPU Execution
 ```
-
 # Key Takeaways
 
 - Thread = lightweight execution unit
