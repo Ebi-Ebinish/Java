@@ -219,12 +219,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ADVANCE JAVA/THREAD.md",
+                "file": "OPPS/ABSTRACTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "THREAD"
+              "title": "ABSTRACTION"
             }
           }
         ],
@@ -387,10 +387,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b373345cb93243a",
+  "active": "db78320e79230c47",
   "lastOpenFiles": [
-    "INTRODUCTION/PROGRAMMING LANGUAGE.md",
+    "INTERFACE/INTERFACE.md",
+    "ADVANCE JAVA/COLLETIONS.md",
     "ADVANCE JAVA/THREAD.md",
+    "INTRODUCTION/PROGRAMMING LANGUAGE.md",
     "ADVANCE JAVA",
     "INTRODUCTION/JAVA INTRODUCTION.md",
     "INTRODUCTION/INSIDE JDK FUNCTIONALITY’S.md",
@@ -398,13 +400,11 @@
     "JAVA VERSION 8/LAMBDA EXPRESSION.md",
     "JAVA VERSION 8/STREAMS.md",
     "JAVA VERSION 8/IMPERATIVE & DECLARATIVE.md",
-    "ADVANCE JAVA/COLLETIONS.md",
     "README.md",
     "PROBLEMS AND THE WAYS.md",
     "PROJECT/Türkiye Perso Script Producer.md",
     "PROJECT/DIGITAL SIGNATURE.md",
     "OPPS/ABSTRACTION.md",
-    "INTERFACE/INTERFACE.md",
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/AES - ADVANCED ENCRYPTION SYSTEM.md",
     "PROJECT/HYBRID CRYPTOGRAPHY.md",

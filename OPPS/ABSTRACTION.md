@@ -180,3 +180,29 @@ And abstract methods must be overridden, so these modifiers make no sense.
 
 you can't create object for that abstract class even though you have the constructor.
 
+# Internal JVM Concept
+
+### Abstract Class
+
+When compiled:
+
+Animal.class
+
+Contains:
+
+- instance variables
+    
+- method bodies
+    
+- abstract method signatures
+    
+
+Object creation flow:
+
+Dog object created  
+↓  
+Memory allocated  
+↓  
+Animal constructor called  
+↓  
+Dog constructor called
