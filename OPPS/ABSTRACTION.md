@@ -191,14 +191,12 @@ Animal.class
 Contains:
 
 - instance variables
-    
 - method bodies
-    
 - abstract method signatures
-    
 
 Object creation flow:
 
+```java
 Dog object created  
 ↓  
 Memory allocated  
@@ -206,3 +204,4 @@ Memory allocated
 Animal constructor called  
 ↓  
 Dog constructor called
+```
