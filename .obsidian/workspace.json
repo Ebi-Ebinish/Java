@@ -219,12 +219,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT/Türkiye Perso Script Producer.md",
+                "file": "PROJECT/ANGULAR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Türkiye Perso Script Producer"
+              "title": "ANGULAR"
             }
           }
         ],
@@ -387,8 +387,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "db78320e79230c47",
+  "active": "1b373345cb93243a",
   "lastOpenFiles": [
+    "PROJECT/Türkiye Perso Script Producer.md",
     "PROJECT/ANGULAR.md",
     "OPPS/ABSTRACTION.md",
     "INTERFACE/INTERFACE.md",
@@ -404,7 +405,6 @@
     "JAVA VERSION 8/IMPERATIVE & DECLARATIVE.md",
     "README.md",
     "PROBLEMS AND THE WAYS.md",
-    "PROJECT/Türkiye Perso Script Producer.md",
     "PROJECT/DIGITAL SIGNATURE.md",
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/AES - ADVANCED ENCRYPTION SYSTEM.md",
