@@ -128,3 +128,21 @@ CPU Execution
 - Shared heap → causes race conditions
 - Synchronization solves concurrency issues
 - ExecutorService = best practice
+
+# Priority 
+
+In Thread we have concept called priority, what priority means which thread need to execute first and fast in between the multiple threads.
+
+It's will give the suggestion to the scheduler to execute first.
+
+We have,
+
+```java
+MaxPriority  = 10
+MinPriority =  1
+NormPriority =5
+```
+
+In that we can set the priority of an thread using setPriority() Method
+
+and also we can get the current priority of an current thread using getPriority()
