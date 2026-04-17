@@ -219,12 +219,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ADVANCE JAVA/THREAD.md",
+                "file": "PROJECT/ANGULAR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "THREAD"
+              "title": "ANGULAR"
             }
           }
         ],
@@ -389,6 +389,7 @@
   },
   "active": "db78320e79230c47",
   "lastOpenFiles": [
+    "ADVANCE JAVA/THREAD.md",
     "PROJECT/ANGULAR.md",
     "PROJECT/CRYPTOGRAPHY.md",
     "PROJECT/DEPLOYMENT.md",
@@ -397,7 +398,6 @@
     "OPPS/ABSTRACTION.md",
     "INTERFACE/INTERFACE.md",
     "ADVANCE JAVA/COLLETIONS.md",
-    "ADVANCE JAVA/THREAD.md",
     "INTRODUCTION/PROGRAMMING LANGUAGE.md",
     "ADVANCE JAVA",
     "INTRODUCTION/JAVA INTRODUCTION.md",
