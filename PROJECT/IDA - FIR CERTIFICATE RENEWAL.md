@@ -14,6 +14,6 @@ https://apps.pdccl.philsys.gov.ph/idauthentication/v1/internal/getCertificate?ap
 application ID --KERNEL
 reference id  --SIGN
 
-That certificate will check the certificate data whether the certificate has expired or not if expires means it will give the response to expires extended certificate
+That certificate will check the certificate data whether the certificate has expired or not if expires means it will give the response to expires extended certificate.
 
 ![[Pasted image 20260418123300.png]]
