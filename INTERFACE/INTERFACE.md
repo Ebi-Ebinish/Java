@@ -72,7 +72,7 @@ interface → implements
 
 # IMPORTANT 
 
-Reference must be the interface name while creating the object and the object name that implemented classes.
+  
 
 By default the interface abstract methods are the public if you not put also It will be consider as a public.
 
