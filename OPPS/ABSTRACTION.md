@@ -165,9 +165,10 @@ And abstract methods must be overridden, so these modifiers make no sense.
 ---
 ## Interface and Abstraction differences
 
-|Interface|Abstraction|
-|---|---|
-|Enforce to implements abstract method to be defined in interface which is does not have relationship (Relationship means – Each interface and its class have their own set of rules).|Abstraction could be links between two classes which can share their things like Inheritance and it make sensible relationship|
+| Interface                                                                                                                                                                             | Abstraction                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Enforce to implements abstract method to be defined in interface which is does not have relationship (Relationship means – Each interface and its class have their own set of rules). | Abstraction could be links between two classes which can share their things like Inheritance and it make sensible relationship |
+|                                                                                                                                                                                       |                                                                                                                                |
 ### Points:
 
 1. According to interface, enforce to implements abstract method to be defined in interface which is does not have relationship (Relationship means – Each interface and its class have their own set of rules).
