@@ -219,12 +219,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERFACE/INTERFACE.md",
+                "file": "OPPS/ABSTRACTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INTERFACE"
+              "title": "ABSTRACTION"
             }
           }
         ],
@@ -389,6 +389,7 @@
   },
   "active": "db78320e79230c47",
   "lastOpenFiles": [
+    "INTERFACE/INTERFACE.md",
     "OPPS/ABSTRACTION.md",
     "INTRODUCTION/JAVA INTRODUCTION.md",
     "INTRODUCTION/ACCESS MODIFIER.md",
@@ -400,7 +401,6 @@
     "PROJECT/CRYPTOGRAPHY.md",
     "PROJECT/DEPLOYMENT.md",
     "PROJECT/PHILIPPINES.md",
-    "INTERFACE/INTERFACE.md",
     "ADVANCE JAVA/COLLETIONS.md",
     "INTRODUCTION/PROGRAMMING LANGUAGE.md",
     "ADVANCE JAVA",
