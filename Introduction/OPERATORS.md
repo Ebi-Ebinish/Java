@@ -5,7 +5,7 @@
 Truncation means removing the fractional (decimal) part of a number — usually when converting from a floating-point number (float, double) to an integer (int, long).
 
 Int num1=10;  
-Int num2=20;  
+Int num2=20;   
 
 If both operands are integers, the result will be an integer – any decimal part is truncated,  
 
