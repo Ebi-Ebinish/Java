@@ -25,14 +25,14 @@ System.out.println((float)num1 / num2);
 
 ## 1. Integer Arithmetic Promotions
 
-| Operand 1 | Operand 2 | Promoted To | Why |
-|------------|------------|------------|-----|
-| byte | byte | int | All byte/short/char are promoted to int before operation |
-| short | short | int | Same reason |
-| char | char | int | Same |
-| byte | short | int | Mixed → promote both to int |
-| char | int | int | Promote char to int |
-| byte | int | int | Promote byte to int |
+| Operand 1 | Operand 2 | Promoted To | Why                                                      |
+| --------- | --------- | ----------- | -------------------------------------------------------- |
+| byte      | byte      | int         | All byte/short/char are promoted to int before operation |
+| short     | short     | int         | Same reason                                              |
+| char      | char      | int         | Same                                                     |
+| byte      | short     | int         | Mixed → promote both to int                              |
+| char      | int       | int         | Promote char to int                                      |
+| byte      | int       | int         | Promote byte to int                                      |
 
 ---
 
