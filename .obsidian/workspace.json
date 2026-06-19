@@ -219,12 +219,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRODUCTION/OPERATORS.md",
+                "file": "INTRODUCTION/Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OPERATORS"
+              "title": "Arrays"
             }
           }
         ],
@@ -389,6 +389,9 @@
   },
   "active": "db78320e79230c47",
   "lastOpenFiles": [
+    "ADVANCE JAVA/COLLETIONS.md",
+    "INTRODUCTION/Arrays.md",
+    "INTRODUCTION/OPERATORS.md",
     "INTRODUCTION/PROGRAMMING LANGUAGE.md",
     "INTRODUCTION/METHODS CONSTRUCTOR.md",
     "INTRODUCTION/JAVA INTRODUCTION.md",
@@ -404,7 +407,6 @@
     "PROJECT/CRYPTOGRAPHY.md",
     "PROJECT/DEPLOYMENT.md",
     "PROJECT/PHILIPPINES.md",
-    "ADVANCE JAVA/COLLETIONS.md",
     "ADVANCE JAVA",
     "JAVA VERSION 8/LAMBDA EXPRESSION.md",
     "JAVA VERSION 8/STREAMS.md",
@@ -415,9 +417,7 @@
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/AES - ADVANCED ENCRYPTION SYSTEM.md",
     "PROJECT/HYBRID CRYPTOGRAPHY.md",
-    "JAVA VERSION 8.md",
     "JAVA VERSION 8",
-    "INTERFACE/FUNCTIONAL INTERFACE.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "ID AUTHENTICATION",
