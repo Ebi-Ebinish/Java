@@ -231,12 +231,14 @@
             "id": "6001e53f779954a9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.4"
+                "file": "PROJECT/Türkiye Perso Script Producer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
+              "icon": "lucide-file",
+              "title": "Türkiye Perso Script Producer"
             }
           }
         ],
