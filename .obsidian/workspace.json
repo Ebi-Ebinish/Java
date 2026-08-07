@@ -226,9 +226,21 @@
               "icon": "lucide-file",
               "title": "Türkiye Perso Script Producer"
             }
+          },
+          {
+            "id": "6001e53f779954a9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -248,7 +260,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -387,7 +401,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "db78320e79230c47",
+  "active": "6001e53f779954a9",
   "lastOpenFiles": [
     "PROJECT/PROTOCOLS WEB SOCKETS.md",
     "INTRODUCTION/Arrays.md",
