@@ -58,12 +58,12 @@ payment.pay(1000);
 This is called **Runtime Polymorphism**.
 # Interface vs Class
 
-|Feature|Class|Interface|
-|---|---|---|
-|Object creation|Yes|No|
-|Methods|Concrete + Abstract|Mostly abstract|
-|Fields|Instance variables|Only constants|
-|Inheritance|Single|Multiple|
+| Feature         | Class               | Interface       |
+| --------------- | ------------------- | --------------- |
+| Object creation | Yes                 | No              |
+| Methods         | Concrete + Abstract | Mostly abstract |
+| Fields          | Instance variables  | Only constants  |
+| Inheritance     | Single              | Multiple        |
 
 Example:
 
