@@ -71,7 +71,6 @@ interface → implements
 # IMPORTANT 
 
   
-
 By default the interface abstract methods are the public if you not put also It will be consider as a public.
 
 When you implemented the interface you enforced to mention public to access every where.
