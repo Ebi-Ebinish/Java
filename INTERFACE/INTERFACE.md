@@ -149,3 +149,8 @@ If you override that time also it must be public
     - Then Java would throw a **compile-time conflict**.
 
 So for your exact case with **abstract methods only**, your code **compiles and runs fine**, no error at all.
+
+
+# Interface
+
+we can define any number of abstract and static and default methods.
