@@ -8,9 +8,7 @@ Example:
 
 ```java
 interface Payment {  
-  
     void pay(int amount);  
-  
 }
 ```
 
