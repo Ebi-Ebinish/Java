@@ -261,12 +261,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERFACE/INTERFACE.md",
+                "file": "OPPS/ABSTRACTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INTERFACE"
+              "title": "ABSTRACTION"
             }
           }
         ],
@@ -433,6 +433,7 @@
   },
   "active": "0ed40ae88f8ca88e",
   "lastOpenFiles": [
+    "INTERFACE/INTERFACE.md",
     "INTERFACE/FUNCTIONAL INTERFACE.md",
     "OPPS/ENCAPSULATION.md",
     "JAVA VERSION 8/LAMBDA EXPRESSION.md",
@@ -459,7 +460,6 @@
     "INTRODUCTION/Arrays.md",
     "INTRODUCTION/ACCESS MODIFIER.md",
     "KAFKA/INTRODUCTION.md",
-    "ADVANCE JAVA/COLLETIONS.md",
     "ADVANCE JAVA",
     "JAVA VERSION 8",
     "Untitled.canvas",
