@@ -170,3 +170,51 @@ The static methods are :
 Yes, you have the right idea! Static methods belong to the interface itself and are shared across the board, while default methods are tied to individual object instances.
 They belong directly to the interface class, not to any object.
 
+
+```java 
+package com.example.java;  
+  
+interface Onlinepayment{  
+    void pay(int money);  
+  
+    default void receipt(){  
+        System.out.println("Receipt generated");  
+    }  
+  
+    static boolean paymentInfo(int money){  
+        System.out.println("Payment processing...");  
+        return money>1000;  
+    }  
+}  
+  
+class UPIpayment implements Onlinepayment{  
+  
+    @Override  
+    public void pay(int money) {  
+        System.out.println("Received UPIpayment amount is: "+money);  
+    }  
+}  
+class CreditcartPayment implements Onlinepayment{  
+  
+    @Override  
+    public void pay(int money) {  
+        System.out.println("Received CreditcartPayment amount is: "+money);  
+    }  
+}  
+  
+public class InterfaceExample {  
+    public static void main(String[] args){  
+        Onlinepayment onlinepayment=new UPIpayment();  
+        Onlinepayment onlinepayment1=new CreditcartPayment();  
+        onlinepayment.pay(1000);  
+        onlinepayment.receipt();  
+        onlinepayment1.pay(1000);  
+        onlinepayment1.receipt();  
+  
+        Onlinepayment.paymentInfo(10);  
+  
+  
+    }  
+}
+```
+
