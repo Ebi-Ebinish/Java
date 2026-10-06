@@ -154,3 +154,11 @@ So for your exact case with **abstract methods only**, your code **compiles and 
 # Interface
 
 we can define any number of abstract and static and default methods.
+
+example:
+Real time usage of interface means like online payment the pay is same but through the pay is different like UPI or Credit card or Hand cash.
+
+we can give a multiple implementation for that payment.
+
+the default methods are common behaviors have in at all the the multiple implementations in the payment like the receipt generations.
+
