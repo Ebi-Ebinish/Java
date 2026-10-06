@@ -159,6 +159,14 @@ example:
 Real time usage of interface means like online payment the pay is same but through the pay is different like UPI or Credit card or Hand cash.
 
 we can give a multiple implementation for that payment.
+##  Default Methods: Instance-Based (Object Wise)
 
 the default methods are common behaviors have in at all the the multiple implementations in the payment like the receipt generations.
+
+Instead of forcing every class to implement.
+## Static Methods: Common to the Interface
+
+The static methods are :
+Yes, you have the right idea! Static methods belong to the interface itself and are shared across the board, while default methods are tied to individual object instances.
+They belong directly to the interface class, not to any object.
 
