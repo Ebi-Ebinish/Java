@@ -26,7 +26,6 @@ In Java, a concrete method is a method that has a complete implementation or def
 ## We can archive abstraction in two ways:
 1. Abstraction class  
 2. Interface  
-
 ---
 ## Abstraction Class
 The class will declared with `abstract` keyword.  
@@ -43,7 +42,6 @@ abstract class Animal {
     public abstract void makeSound();
 }
 ```
-
 ### Why?
 
 Because `Animal` is abstract — it's incomplete. It may have abstract methods (without a body), so Java doesn’t allow creating an instance of it.
@@ -82,7 +80,6 @@ By default, all methods inside an interface are:
 - `abstract` (before Java 8)
 #### From Java 8 onwards:
 - Can also contain `default` and `static` methods.
-
 ### From Java 9 onwards:
 
 - Can contain `private` methods as helper methods.
