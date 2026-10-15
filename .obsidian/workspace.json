@@ -268,9 +268,21 @@
               "icon": "lucide-file",
               "title": "THREAD"
             }
+          },
+          {
+            "id": "7aedb3cabd66f01f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -431,7 +443,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "0ed40ae88f8ca88e",
+  "active": "7aedb3cabd66f01f",
   "lastOpenFiles": [
     "COLLECTION- HASHMAP/HASHMAP.md",
     "OPPS/ABSTRACTION.md",
