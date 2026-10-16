@@ -287,12 +287,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPRING FRAMEWORK/INTRODUCTION.md",
+                "file": "SPRING BOOT FRAME WORK/SPRING BOOT ANNOTATIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INTRODUCTION"
+              "title": "SPRING BOOT ANNOTATIONS"
             }
           }
         ],
@@ -459,8 +459,12 @@
   },
   "active": "a5f8637f794d6360",
   "lastOpenFiles": [
-    "Server/TOMCAT.md",
     "Untitled.md",
+    "SPRING BOOT FRAME WORK/SPRING BOOT ANNOTATIONS.md",
+    "SPRING FRAMEWORK/INTRODUCTION.md",
+    "SPRING BOOT FRAME WORK",
+    "Untitled 1.md",
+    "Server/TOMCAT.md",
     "Server",
     "COLLECTION- HASHMAP/HASHMAP.md",
     "OPPS/ABSTRACTION.md",
@@ -483,9 +487,6 @@
     "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
     "PROJECT/PHILIPPINES.md",
     "PROJECT/PROTOCOLS WEB SOCKETS.md",
-    "PROJECT/SYMMETRIC KEY CRYPTOGRAPHY.md",
-    "PROJECT/Türkiye Perso Script Producer.md",
-    "SPRING FRAMEWORK/INTRODUCTION.md",
     "Pasted image 20260418123300.png",
     "ADVANCE JAVA",
     "JAVA VERSION 8",
@@ -496,7 +497,6 @@
     "KAFKA",
     "JAVA",
     "COLLECTION- HASHMAP",
-    "COLLECTION - QUEUE",
-    "COLLECTIONS - SET"
+    "COLLECTION - QUEUE"
   ]
 }

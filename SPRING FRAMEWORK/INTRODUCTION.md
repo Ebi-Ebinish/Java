@@ -68,6 +68,32 @@ Main ways Spring does DI:
 |Setter Injection|@Autowired|After object is created|★★☆☆☆|
 |Field Injection|@Autowired directly on field|After object is created|★☆☆☆☆ (avoid)|
 
+Everything based one the xml bean configuration.
 
-# APO( Aspect Oriented Programming)
+```java
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="  
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+    <bean id="docker" class="com.example.spring.Docker">  
+        <constructor-arg value="MBBS"></constructor-arg>  
+    </bean>    <bean id="nurse" class="com.example.spring.Nurse"></bean>  
+  
+</beans>
+
+
+
+
+
+
+
+ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring.xml");  
+  
+Docker staff=applicationContext.getBean(Docker.class);  
+  
+staff.assist();
+```
+
+We need to tell the spring I need this object in the xml configuration. If we have the property we can use the constructor org in the bean configuration and we can use the class direct in the another class as a property.
 
