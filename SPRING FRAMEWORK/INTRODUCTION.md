@@ -67,3 +67,7 @@ Main ways Spring does DI:
 |Constructor Injection|@Autowired (optional)|When object is created|★★★★★ (Recommended)|
 |Setter Injection|@Autowired|After object is created|★★☆☆☆|
 |Field Injection|@Autowired directly on field|After object is created|★☆☆☆☆ (avoid)|
+
+
+# APO( Aspect Oriented Programming)
+
