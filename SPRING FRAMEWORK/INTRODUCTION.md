@@ -70,6 +70,8 @@ Main ways Spring does DI:
 
 Everything based one the xml bean configuration.
 
+## xml based configuration
+
 ```java
 <?xml version="1.0" encoding="UTF-8"?>  
 <beans xmlns="http://www.springframework.org/schema/beans"  
@@ -97,3 +99,5 @@ staff.assist();
 
 We need to tell the spring I need this object in the xml configuration. If we have the property we can use the constructor org in the bean configuration and we can use the class direct in the another class as a property.
 
+
+## Java Based Configuration
