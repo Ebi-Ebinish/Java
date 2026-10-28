@@ -287,12 +287,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPRING FRAMEWORK/INTRODUCTION.md",
+                "file": "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INTRODUCTION"
+              "title": "ASYMMETRIC KEY CRYPTOGRAPHY"
             }
           }
         ],
@@ -459,8 +459,12 @@
   },
   "active": "a5f8637f794d6360",
   "lastOpenFiles": [
-    "SPRING FRAMEWORK/SPRING INTRODUCTIONS ONE.md",
+    "PROJECT/DIGITAL SIGNATURE.md",
+    "PROJECT/CRYPTOGRAPHY.md",
+    "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
+    "PROJECT/SYMMETRIC KEY CRYPTOGRAPHY.md",
     "SPRING FRAMEWORK/INTRODUCTION.md",
+    "SPRING FRAMEWORK/SPRING INTRODUCTIONS ONE.md",
     "Pasted image 20260418123300.png",
     "SPRING BOOT FRAME WORK/SPRING BOOT ANNOTATIONS.md",
     "Untitled.md",
@@ -478,16 +482,12 @@
     "INTERFACE/INTERFACE.md",
     "OPPS/ENCAPSULATION.md",
     "JAVA VERSION 8/LAMBDA EXPRESSION.md",
-    "PROJECT/DIGITAL SIGNATURE.md",
-    "PROJECT/CRYPTOGRAPHY.md",
     "PROJECT/ANGULAR.md",
     "PROJECT/AES - ADVANCED ENCRYPTION SYSTEM.md",
-    "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "PROJECT/DEPLOYMENT.md",
     "PROJECT/HASH FUNCTIONS.md",
     "PROJECT/HYBRID CRYPTOGRAPHY.md",
     "PROJECT/IDA - FIR CERTIFICATE RENEWAL.md",
-    "PROJECT/PHILIPPINES.md",
     "ADVANCE JAVA",
     "JAVA VERSION 8",
     "Untitled.canvas",
