@@ -308,9 +308,21 @@
               "icon": "lucide-file",
               "title": "Türkiye Perso Script Producer"
             }
+          },
+          {
+            "id": "28f64550e1e05354",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.1"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.1"
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -471,7 +483,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "089422e1f5dd289b",
+  "active": "28f64550e1e05354",
   "lastOpenFiles": [
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "INTERFACE/FUNCTIONAL INTERFACE.md",
