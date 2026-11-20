@@ -313,12 +313,14 @@
             "id": "28f64550e1e05354",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.15.1"
+                "file": "PROJECT/Türkiye Perso Script Producer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.15.1"
+              "icon": "lucide-file",
+              "title": "Türkiye Perso Script Producer"
             }
           }
         ],
@@ -485,6 +487,7 @@
   },
   "active": "28f64550e1e05354",
   "lastOpenFiles": [
+    "PROBLEMS AND THE WAYS.md",
     "PROJECT/ASYMMETRIC KEY CRYPTOGRAPHY.md",
     "INTERFACE/FUNCTIONAL INTERFACE.md",
     "ID AUTHENTICATION/ROAD MAP.md",
@@ -513,7 +516,6 @@
     "JAVA VERSION 8/LAMBDA EXPRESSION.md",
     "PROJECT/ANGULAR.md",
     "PROJECT/DEPLOYMENT.md",
-    "PROJECT/HASH FUNCTIONS.md",
     "ADVANCE JAVA",
     "JAVA VERSION 8",
     "Untitled.canvas",
